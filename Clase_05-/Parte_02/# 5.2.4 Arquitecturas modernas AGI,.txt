@@ -1,0 +1,66 @@
+# 5.2.4 Arquitecturas modernas: AGI, multimodal, agentic AI
+    
+    En 2026 la IA generativa ya no se limita a “responder preguntas” o “generar una imagen”. Estamos entrando en una fase donde los modelos se vuelven más integrados, autónomos y capaces de razonar y actuar en el mundo real.
+    
+    ### 1. Multimodalidad total (el modelo que lo entiende y genera todo)
+    
+    - **Qué es**: Un solo modelo que procesa y genera texto, imágenes, audio, vídeo, código, datos estructurados… y entiende relaciones entre ellos.
+    - **Antes (2022-2024)**: Modelos separados (ChatGPT texto, DALL·E imagen, Whisper audio).
+    - **Ahora (2026)**: Modelos unificados que manejan todo en una sola interfaz.
+    
+    Ejemplos líderes en febrero 2026:
+    
+    - OpenAI GPT-4o / o3 series → texto + visión + voz nativa + razonamiento paso a paso
+    - Google Gemini 2.5 Pro / Flash → integración profunda con Google Workspace, YouTube, Maps
+    - Anthropic Claude 3.7 / 4 → excelente en razonamiento largo + análisis de documentos + visión
+    - xAI Grok 3 → multimodal + búsqueda en tiempo real + herramientas externas
+    - Modelos chinos: Qwen-VL-Max, DeepSeek-V3, GLM-4V → muy competitivos en precio/rendimiento
+    
+    **Ejemplo práctico no-code**:
+    Subes un vídeo de 5 minutos + una captura de pantalla + tu voz preguntando → el modelo te resume, extrae datos clave, genera subtítulos, crea thumbnails y te sugiere mejoras al guion… todo en una conversación.
+    
+    ### 2. Agentic AI – La IA que ACTÚA (no solo habla)
+    
+    - **Qué es**: Modelos que dejan de ser solo “conversacionales” y pasan a ser **agentes autónomos** que toman decisiones, usan herramientas, planifican pasos y ejecutan tareas complejas con mínima supervisión.
+    - **Características clave en 2026**:
+        - Planificación (descomponen una meta grande en subtareas)
+        - Uso de herramientas (buscar en web, enviar emails, editar documentos, llamar APIs)
+        - Memoria a largo plazo (recuerdan conversaciones de semanas atrás)
+        - Auto-corrección y razonamiento en cadena (chain-of-thought avanzado)
+    
+    Ejemplos reales y accesibles (no-code o low-code):
+    
+    - **OpenAI o1 / o3 + Assistants API** → agentes que resuelven problemas complejos paso a paso
+    - **Anthropic Claude con Computer Use** → puede controlar un ordenador virtual (clic, escribir, navegar)
+    - **Auto-GPT / BabyAGI evolucionados** → versiones 2026 como Agentic frameworks en plataformas como SmythOS, CrewAI, LangGraph Cloud
+    - **Grok 3 + tools** → integración nativa con búsqueda X, análisis de perfiles, ejecución de código simple
+    - **Manus, Devin-like agents** → enfocados en desarrollo software autónomo
+    - **Microsoft Copilot Studio + Azure AI Agents** → para empresas, muy usado en 2026
+    
+    **Analogía sencilla**:
+    Antes: le pedías a un asistente que te escribiera un email.
+    
+    Ahora: le dices “organiza mi viaje a Barcelona en abril, presupuesto <800€, incluye hotel céntrico, vuelos directos y entradas al Sagrada Familia” → el agente busca vuelos, compara hoteles, reserva (si le das permiso), te envía confirmación y actualiza tu calendario.
+    
+    ### 3. Camino hacia AGI (Inteligencia Artificial General)
+    
+    - **Definición práctica en 2026** (no la teórica perfecta):
+    Un sistema que puede realizar **cualquier tarea intelectual** que un humano muy capaz puede hacer, con autonomía y aprendizaje continuo.
+    - **Estado actual (febrero 2026)**:
+        - No hemos llegado a AGI plena (ningún modelo puede aprender cualquier cosa nueva desde cero sin reentrenamiento masivo)
+        - Pero estamos en **pre-AGI** o **AGI estrecha en dominios**: superhumano en codificación, investigación científica, razonamiento matemático, traducción simultánea, análisis legal/financiero
+        - OpenAI, Anthropic, Google DeepMind y xAI publican papers y benchmarks donde modelos superan el 90-95% de expertos humanos en pruebas muy difíciles (GPQA, MATH-500, SWE-bench Verified, FrontierMath)
+    - **Debate caliente en 2026**:
+        - ¿Cuándo llega AGI real? Predicciones van de 2027 a 2035 (mediana ~2029-2031 según encuestas expertas recientes)
+        - ¿Es peligrosa? Síntomas de “misalignment” siguen apareciendo (alucinaciones estratégicas, goal misgeneralization)
+        - Regulaciones: EU AI Act en plena aplicación para sistemas de alto riesgo, EE.UU. con Executive Order + propuestas de ley, China con controles estrictos
+    
+    ### Tabla comparativa rápida – Niveles de IA en 2026
+    
+    | Nivel | Capacidad principal | Ejemplos 2026 | ¿Accesible no-code? | ¿Autonomía real? |
+    | --- | --- | --- | --- | --- |
+    | IA generativa clásica | Genera contenido a partir de prompt | ChatGPT 3.5/4, Midjourney | Sí | Baja |
+    | Multimodal unificado | Entiende y genera texto+imagen+audio+vídeo | GPT-4o, Gemini 2.5, Claude 4 | Sí | Media |
+    | Agentic AI | Planifica, usa herramientas, ejecuta tareas | o3 agents, Claude Computer Use, CrewAI | Sí (plataformas) | Alta |
+    | Pre-AGI / AGI estrecha | Supera humanos en casi cualquier dominio intelectual | o3, Gemini Ultra, Grok 3, Qwen-Max | Parcial (API) | Muy alta |
+    | AGI plena | Cualquier tarea intelectual humana + aprendizaje autónomo | Aún no existe | No | Total |

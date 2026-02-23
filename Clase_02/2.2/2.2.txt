@@ -1,0 +1,64 @@
+
+1.2.1                       Aprendizaje Automático (Machine Learning - ML)
+
+El aprendizaje automático es una de las ramas más importantes de la IA y se centra en desarrollar modelos que puedan aprender patrones a partir de datos sin ser programados explícitamente.
+ Principales Algoritmos de Machine Learning: 
+Regresión Lineal y Logística – Modelos estadísticos para análisis predictivo.  Árboles de Decisión – Algoritmos para clasificación y regresión basados en reglas.
+Random Forest – Conjunto de múltiples árboles de decisión para mejorar la precisión.  
+Máquinas de Soporte Vectorial (SVM) – Técnica para clasificación y regresión basada en hiperplanos. 
+ k-Nearest Neighbors (k-NN) – Algoritmo basado en la proximidad de datos.
+
+
+1.2.2 Aprendizaje Profundo (Deep Learning - DL)
+· El aprendizaje profundo es una subrama del Machine Learning que utiliza redes neuronales artificiales con múltiples capas para procesar datos complejos. 
+· Principales Algoritmos de Deep Learning:
+· Redes Neuronales Convolucionales (CNNs) – Utilizadas en visión por computadora.  
+· Redes Neuronales Recurrentes (RNNs) – Ideales para procesamiento de lenguaje natural y series temporales. 
+· Transformers – Base de modelos de lenguaje como GPT y BERT. 
+· Autoencoders – Usados en reducción de dimensionalidad y generación de datos sintéticos.
+
+1.2.3      Procesamiento del Lenguaje Natural (Natural Language Processing - NLP)
+El NLP permite a las computadoras comprender, interpretar y generar lenguaje humano. 
+Principales Algoritmos de NLP:
+ Análisis de Sentimiento – Identificación de emociones en textos (algoritmos como Naïve Bayes y LSTM).
+Modelos Basados en Transformers – GPT, BERT, T5, LLaMA. 
+ Word2Vec y GloVe – Técnicas para representación vectorial de palabras. 
+ Chatbots y Asistentes Virtuales – Uso de modelos generativos para respuestas automáticas.
+
+1.2.4 Visión por Computadora (Computer Vision - CV)
+La visión por computadora se enfoca en la interpretación de imágenes y videos por parte de las máquinas. 
+Principales Algoritmos de Computer Vision: 
+· Redes Convolucionales (CNNs) – Modelos como ResNet, VGG y YOLO para detección de objetos.  
+· Segmentación de Imágenes – U-Net, Mask R-CNN.  
+· Reconocimiento Facial – Modelos basados en redes neuronales profundas.  
+· OCR (Reconocimiento Óptico de Caracteres) – Algoritmos como Tesseract OCR.
+
+1.2.5                       Sistemas Expertos
+Los sistemas expertos son programas que imitan la toma de decisiones humanas en dominios específicos.
+· Principales Algoritmos de Sistemas Expertos: 
+· Lógica Difusa – Modelos para manejar información incierta o imprecisa.  
+· Sistemas Basados en Reglas – Motor de inferencia con "Si-Entonces".  
+· Redes Bayesianas – Modelos probabilísticos para la toma de decisiones.
+
+1.2.6                       Robótica e Inteligencia Artificial en Robots
+La IA en robótica permite a los robots realizar tareas de manera autónoma utilizando sensores y algoritmos avanzados.
+Principales Algoritmos en Robótica:
+· SLAM (Simultaneous Localization and Mapping) – Para la navegación autónoma de robots.  
+· Algoritmos de Control de Movimiento – PID, Redes Neuronales.
+· Sistemas de Percepción y Visión – Uso de Computer Vision para reconocimiento de objetos y entornos.
+
+1.2.7                       Inteligencia Artificial Generativa (Generative AI)
+La IA generativa se enfoca en la creación de contenido nuevo, como texto, imágenes, música y código.
+Principales Algoritmos de IA Generativa:
+Redes Generativas Antagónicas (GANs) – Para la generación de imágenes y videos.
+Modelos Basados en Transformers – GPT, DALL·E, Stable Diffusion.
+VAEs (Variational Autoencoders) – Para generación de imágenes sintéticas.
+
+1.2.8 Inteligencia Artificial Explicable (Explainable AI - XAI)
+
+La IA explicable busca hacer que los modelos de IA sean interpretables y comprensibles para los humanos.
+Principales Algoritmos de XAI:
+· LIME (Local Interpretable Model-agnostic Explanations) – Explica predicciones de modelos complejos.  
+· SHAP (SHapley Additive exPlanations) – Asigna importancia a variables en modelos de Machine Learning. 
+· Modelos Simples como Árboles de Decisión – Para mejorar la interpretabilidad.
+

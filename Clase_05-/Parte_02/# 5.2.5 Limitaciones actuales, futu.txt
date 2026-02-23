@@ -1,0 +1,95 @@
+# 5.2.5 Limitaciones actuales, futuro cercano y consejos prácticos
+
+### 1. Limitaciones importantes que persisten en febrero 2026 (incluso en los modelos frontier)
+
+A pesar de los avances impresionantes, ningún modelo actual es perfecto. Estas son las debilidades más notorias que impactan el uso diario:
+
+- **Alucinaciones y errores factuales persistentes**
+    
+    Aunque modelos como o3, Claude 4 o Gemini 2.5 Pro han mejorado drásticamente gracias al razonamiento en cadena reforzado (chain-of-thought avanzado y self-correction), siguen inventando referencias bibliográficas falsas, estadísticas inventadas, citas de noticias que nunca existieron o detalles históricos inexactos.
+    
+    En tareas de investigación profunda o informes profesionales, es obligatorio verificar fuentes externas (Perplexity, búsqueda web integrada o bases de datos propias).
+    
+- **Ventana de contexto grande… pero no infinita**
+    
+    Líderes actuales:
+    
+    - Claude 4 → hasta ~500k–1M tokens efectivos
+    - Gemini 2.5 Pro → ~1–2M tokens en modo experimental
+    - Grok 3 → ~128k–512k con buena retención
+    Problema real: en conversaciones o documentos muy largos (>200–300 páginas), el modelo empieza a “olvidar” detalles del principio, repite información o pierde coherencia narrativa.
+    Solución práctica no-code: dividir proyectos grandes en “proyectos” o “bases de conocimiento” separadas (Claude Projects, Notion AI, Mem0).
+- **Razonamiento matemático, lógico y de planificación extrema**
+    
+    En problemas muy novedosos, con muchos pasos intermedios o que requieren creatividad matemática real (no solo aplicar fórmulas conocidas), los modelos top fallan más de lo deseado.
+    
+    Ejemplo: FrontierMath, GPQA Diamond o problemas de olimpiadas muy difíciles → tasas de acierto ~40–70% en los mejores modelos (frente a ~95%+ en exámenes universitarios estándar).
+    
+    Mejora continua, pero en 2026 aún necesitas guiarlos con prompts muy estructurados o usar herramientas externas (Wolfram Alpha integrado en algunos).
+    
+- **Vídeo e imagen de larga duración / alta consistencia**
+    
+    Modelos como Sora 2, Kling 2.0, Runway Gen-4, Luma Ray 2 o Hailuo MiniMax generan clips de 10–120 segundos impresionantes, pero:
+    
+    - Personajes cambian de ropa, peinado o rasgos faciales entre tomas
+    - Movimientos físicos complejos (líquidos derramándose, colisiones múltiples, multitudes) siguen siendo inconsistentes
+    - Edición precisa frame por frame es muy difícil sin herramientas post-producción
+    En 2026, lo mejor para producciones largas sigue siendo generar clips cortos y unirlos manualmente en CapCut, DaVinci o Runway.
+- **Sesgos culturales y contextuales sutiles**
+    
+    Menos evidentes que en 2023–2024, pero aún aparecen en temas sensibles, regionales o de nicho (por ejemplo, representaciones culturales no occidentales, jerga muy local o humor específico).
+    
+- **Costo y velocidad en escenarios de uso intensivo**
+    
+    Los modelos más potentes siguen siendo caros (~$15–60 por millón de tokens de output en frontier models).
+    
+    Solución creciente: modelos destilados y open-weight de muy alta calidad (Llama 3.3 70B, Qwen 2.5 72B, Gemma 2 27B, Phi-4, Mistral Small 3) que corren localmente o en plataformas baratas con rendimiento cercano al 85–95% de los grandes.
+    
+
+### 2. Futuro cercano (2026–2028) – Predicciones realistas y con base en tendencias actuales
+
+- **2026 (resto del año) – 2027 temprano**
+    - Agentes autónomos pasando de “pruebas divertidas” a flujos de trabajo reales en empresas pequeñas y medianas (automatización de ventas outbound, investigación de mercado, generación de informes semanales, manejo de leads).
+    - Vídeo generativo coherente de 3–10 minutos (con consistencia de personajes y narrativa).
+    - Modelos open-weight frontier (esperados: Llama 4, Grok 4 open?, DeepSeek R2) con capacidades cercanas a los cerrados de 2025.
+    - Integración profunda en sistemas operativos y apps cotidianas: Windows 12 Copilot+, macOS Sequoia/Apple Intelligence 2.0, Android Gemini Everywhere.
+    - Multimodalidad “zero-shot” total: subes cualquier combinación de archivos (PDF + vídeo + audio + hoja de cálculo) y el modelo razona sobre todo a la vez.
+- **2027–2028**
+    - Primeros sistemas que se acercan a “AGI estrecha” en dominios completos: investigación científica, ingeniería de software compleja, diseño industrial, estrategia empresarial.
+    - Robótica + IA generativa en entornos reales (Figure 02/03, Tesla Optimus con modelos multimodales, 1X Neo).
+    - Interfaces de “agente personal universal” que gestionan gran parte de la vida digital de una persona (email, calendario, finanzas básicas, compras, redes).
+    - Regulación global más madura: EU AI Act en plena fuerza, leyes en EE.UU./China/India, estándares internacionales de watermarking y trazabilidad obligatorios.
+
+### 3. Consejos prácticos para empezar YA (enfoque 100% no-code – febrero 2026)
+
+Aquí tienes un mapa actualizado y más detallado de flujos reales que miles de personas no-code están usando con éxito hoy:
+
+| Objetivo que quieres lograr | Herramientas recomendadas (combinación ganadora 2026) | Flujo típico paso a paso (no-code) | Tiempo estimado para primer resultado |
+| --- | --- | --- | --- |
+| Contenido viral para redes sociales | Claude 4 / Grok 3 + Flux.1 / Midjourney v7 + CapCut + ElevenLabs Turbo v3 | 1. Prompt en Claude para guion/hook<br>2. Generar imagen/clip corto en Flux/MJ<br>3. Voz con ElevenLabs<br>4. Editar en CapCut con efectos IA | 15–45 min |
+| Mini-cursos o lead magnets educativos | Claude Projects + Gamma.app / SlidesAI / Tome + ElevenLabs + Canva Magic Studio | 1. Guion detallado en Claude<br>2. Exportar a Gamma/Tome para slides automáticos<br>3. Narración con clon de voz<br>4. Añadir visuales en Canva | 1–3 horas |
+| Asistente personal / gestor de proyectos | Grok 3 + Claude Projects + Notion AI + Zapier / [Make.com](http://make.com/) | 1. Crear base de conocimiento en Notion/Claude<br>2. Conectar con Zapier para automatizar entradas<br>3. Preguntar diariamente al agente | 30–90 min setup inicial |
+| Prototipo de SaaS o herramienta con IA | Bubble / Softr / Glide + OpenAI Assistants / Claude API + [Make.com](http://make.com/) | 1. Diseñar interfaz en Bubble<br>2. Conectar agente IA vía API<br>3. Automatizar flujos con Make | 4–12 horas primer MVP |
+| Canal/podcast automatizado o semi-automatizado | Descript + ElevenLabs + Kling 2.0 / Runway Gen-4 + CapCut Pro | 1. Texto/guion en Claude<br>2. Voz clonada en ElevenLabs<br>3. Vídeo base generado en Kling<br>4. Editar y pulir en Descript/CapCut | 2–6 horas por episodio |
+| Investigación profunda y rápida de mercado/tema | Perplexity Pro / Gemini Deep Research / Claude + Grok web search | 1. Pregunta compleja<br>2. Usar “Deep Research” o chain-of-thought<br>3. Exportar fuentes y resumen | 10–40 min por tema |
+| Automatización de email marketing / copy | Claude + [Instantly.ai](http://instantly.ai/) / Lemlist + Gamma para landing pages | 1. Generar secuencias de emails en Claude<br>2. Personalizar con variables<br>3. Enviar vía Instantly | 1–2 horas setup + pruebas |
+
+**Checklist ampliado para cualquier proyecto no-code con IA en 2026**
+
+☐ Define el output final deseado con máxima claridad (ej: “vídeo vertical de 60 s para TikTok con hook en los primeros 3 s”)
+
+☐ Elige el modelo más fuerte por categoría en este momento (texto largo → Claude 4, razonamiento → o3/Gemini 2.5, imagen realista → Flux.1, voz → ElevenLabs)
+
+☐ Usa prompts estructurados siempre:
+
+Role → Task → Format → Constraints → Examples
+
+☐ Implementa “human-in-the-loop” obligatorio en outputs críticos (revisión manual antes de publicar)
+
+☐ Prueba con volúmenes pequeños (1–5 ejemplos) antes de escalar a cientos
+
+☐ Guarda y versiona tus mejores prompts (Notion, Claude Artifacts, PromptBase personal)
+
+☐ Monitorea costos: usa modelos más baratos/destilados para borradores, frontier solo para pulido final
+
+☐ Experimenta combinando 3–4 herramientas en un flujo (la magia está en la cadena)

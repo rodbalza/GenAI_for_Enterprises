@@ -1,0 +1,66 @@
+# 5.2.2 Modelos principales: LLMs, Diffusion Models, TTS, STT, texto-imagen
+
+La IA generativa no es solo "chatbots". Existen familias de modelos especializadas según lo que generan: texto, imágenes, audio, vídeo, etc.
+
+Aquí las principales que cualquier persona no-code puede usar ya mismo.
+
+### Tabla comparativa rápida de las familias principales
+
+| Familia de modelo | Qué genera principalmente | Input típico | Ejemplos populares (2026) | Uso típico no-code | Nivel de madurez (2026) |
+| --- | --- | --- | --- | --- | --- |
+| **LLMs** (Large Language Models) | Texto (muy largo y coherente) | Texto (prompt) | GPT-4o / o3, Claude 3.5/4, Gemini 2.5, Grok 3, Llama 3.1/4, DeepSeek-R1 | ChatGPT, [Claude.ai](http://claude.ai/), Perplexity, [Grok.com](http://grok.com/) | Muy alta – base de todo |
+| **Diffusion Models** | Imágenes (y vídeo en evolución) | Texto + imagen (opcional) | Stable Diffusion 3.5 / Flux.1, Midjourney v7, Imagen 4, DALL·E 4, SDXL Turbo | Midjourney (Discord), [Leonardo.ai](http://leonardo.ai/), Flux via [Fal.ai](http://fal.ai/) | Alta – hiperrealista |
+| **Texto → Imagen** | Imágenes a partir de descripción | Texto puro | DALL·E 3/4, Midjourney, Flux, Ideogram 2.0, Recraft v3 | ChatGPT (DALL·E), Midjourney, [Ideogram.ai](http://ideogram.ai/) | Alta |
+| **TTS** (Text-to-Speech) | Voz humana natural (hablado) | Texto | ElevenLabs Turbo v3, PlayHT, Google WaveNet/Cloud TTS, OpenAI TTS, XTTS-v2 | ElevenLabs, [Murf.ai](http://murf.ai/), Speechify, CapCut TTS | Muy alta – clonación voz |
+| **STT** (Speech-to-Text) | Texto a partir de audio | Audio / voz | Whisper v3 / large-v3-turbo, Deepgram Nova-3, AssemblyAI, Google Speech-to-Text | Whisper (local o Hugging Face), [Otter.ai](http://otter.ai/), Fireflies | Muy alta – transcripciones precisas |
+| **Multimodal / Unified** | Texto + imagen + audio + vídeo | Mezcla (texto, imagen, audio) | GPT-4o / o3, Gemini 2.5 Pro/Flash, Claude 3.5 Sonnet (visión), Grok 3 Vision | ChatGPT con voz/imagen, Gemini app, Claude | Alta y creciendo rápido |
+
+### Explicación sencilla de cada familia (sin tecnicismos profundos)
+
+1. **LLMs – Grandes Modelos de Lenguaje**
+    
+    Son como "cerebros de texto gigantes".
+    
+    Aprenden patrones del lenguaje humano leyendo internet entero (y más).
+    
+    Pueden escribir emails, guiones, código, resúmenes, ideas de negocio, poesía…
+    
+    **Ejemplos no-code**:
+    
+    - ChatGPT (OpenAI)
+    - Claude (Anthropic) – muy bueno en razonamiento largo
+    - Grok (xAI) – actualizado en tiempo real
+    - Gemini (Google) – integración con Google apps
+2. **Modelos de Difusión (Diffusion Models)**
+    
+    Funcionan como "quitar ruido paso a paso".
+    
+    Empiezan con una imagen de puro ruido (estática de TV) y la van limpiando hasta que coincide con tu descripción.
+    
+    Son los reyes de las imágenes hiperrealistas, arte, fotos inventadas.
+    
+    **Ejemplos no-code**:
+    
+    - Midjourney (Discord) – el más artístico
+    - Flux.1 (vía Grok, [Fal.ai](http://fal.ai/) o Replicate) – muy realista y rápido
+    - Stable Diffusion (via Automatic1111 web o ComfyUI online)
+3. **Texto → Imagen (Text-to-Image)**
+    
+    Subcategoría de difusión, pero enfocada solo en prompt de texto → imagen.
+    
+    Muy accesible: escribes y obtienes foto/arte en segundos.
+    
+4. **TTS – Texto a Voz**
+    
+    Convierte cualquier texto en audio hablado con voz natural (incluso clonando tu voz).
+    
+    Ideal para podcasts, vídeos, audiolibros, asistentes de voz.
+    
+    **Mejores en 2026**: ElevenLabs (clonación voz ultra realista), PlayHT, OpenAI TTS.
+    
+5. **STT – Voz a Texto**
+    
+    Escucha audio y lo convierte en texto escrito con alta precisión (incluso acentos, ruido de fondo).
+    
+    **Mejores**: Whisper (OpenAI – open source), Deepgram (muy rápido y barato).
+    

@@ -1,0 +1,60 @@
+# 5.2.1 Historia y evolución de la IA Generativa
+
+La **IA Generativa** no nació en 2022 con ChatGPT. Sus raíces son mucho más antiguas, pero su explosión masiva y accesible (especialmente para personas sin conocimientos técnicos) ocurrió en los últimos años.
+
+### Línea de tiempo principal – Hitos clave
+
+- **Décadas de 1940-1960 – Los orígenes teóricos de la IA**
+    - 1950: Alan Turing publica “Computing Machinery and Intelligence” → Pregunta famosa: *¿Pueden las máquinas pensar?* (Test de Turing)
+    - 1956: Conferencia de Dartmouth → Nace oficialmente el término “Inteligencia Artificial”
+    - Primeros programas generativos muy básicos (como ELIZA en 1966, un chatbot rudimentario que imitaba a un psicólogo)
+- **1980s-1990s – Primeros intentos serios de generación**
+    - Modelos probabilísticos y redes neuronales recurrentes (RNN) empiezan a usarse
+    - Sistemas expertos y Markov Chains para generar texto muy simple
+    - Limitaciones enormes por falta de datos y potencia de cómputo
+- **2014 – Nace el concepto moderno de IA Generativa**
+    - **GANs** (Generative Adversarial Networks) por Ian Goodfellow
+        - Dos redes neuronales compitiendo: una genera, la otra juzga si es real o falso
+        → Revolución en generación de imágenes realistas
+- **2017 – La arquitectura que lo cambió todo**
+    - **Transformer** (paper “Attention is All You Need” – Google)
+        - Introduce el mecanismo de **atención** → permite entender relaciones lejanas en el texto
+        - Base de **todos** los modelos actuales (GPT, BERT, LLaMA, Grok, Claude, etc.)
+- **2018-2019 – OpenAI escala el concepto**
+    - **GPT-1** (2018): 117 millones de parámetros
+    - **GPT-2** (2019): 1.5 mil millones de parámetros → OpenAI inicialmente no lo libera completo por miedo a mal uso
+- **2020 – El salto gigante**
+    - **GPT-3** (175 mil millones de parámetros) → Demuestra que “escalar” modelo + datos + cómputo produce resultados sorprendentes
+    - Primeros modelos texto → imagen (DALL·E v1 por OpenAI)
+- **2021-2022 – La explosión pública**
+    - 2021: **DALL·E** y **CLIP** → texto a imagen de calidad
+    - 2022: **Stable Diffusion** (open source) → democratiza la generación de imágenes
+    - Noviembre 2022: **ChatGPT** (basado en GPT-3.5) → Alcanza 1 millón de usuarios en 5 días y 100 millones en 2 meses
+    → Momento “iPhone” de la IA generativa
+- **2023-2024 – Carrera multimodal y regulación**
+    - GPT-4 (2023), GPT-4o (2024), Claude 3, Gemini, LLaMA 3, Grok 2/3
+    - Sora (OpenAI) – texto a vídeo realista (2024)
+    - Marzo 2024: Aprobación del **EU AI Act** (primera regulación comprehensiva mundial)
+    - Modelos chinos muy competitivos: DeepSeek, Qwen
+- **2025 – De la experimentación a la producción responsable**
+    - Agentes autónomos en piloto masivo (AutoGPT, BabyAGI evolucionados, Manus…)
+    - Modelos de razonamiento avanzado (o1, o3 de OpenAI)
+    - Vídeo generativo de minutos de duración y calidad cinematográfica
+    - Inversión masiva (> $600 mil millones estimados en infraestructuras)
+    - Enfoque en “aceleración responsable” → medir ROI real, no solo hype
+- **2026 (situación actual – febrero 2026)**
+    - La IA generativa ya no es una “herramienta divertida” → es **infraestructura** en empresas
+    - Agentes de IA (agentic AI) empiezan a pasar de piloto a producción en flujos de trabajo reales
+    - Vídeo e imagen generativa alcanzan nivel “production-grade” (minutos, consistencia, edición)
+    - Multimodalidad total: texto + imagen + audio + vídeo + acción en un solo modelo
+    - Debate fuerte sobre soberanía de IA (países y empresas quieren modelos propios)
+    - Preparación masiva para la plena aplicación del EU AI Act (agosto 2026 para sistemas de alto riesgo)
+
+### Evolución resumida en 4 eras (para recordar fácilmente)
+
+| Era | Período aproximado | Característica principal | Ejemplos emblemáticos |
+| --- | --- | --- | --- |
+| Prehistoria teórica | 1950-2013 | Ideas, chatbots básicos, GANs iniciales | Turing, ELIZA, GANs (2014) |
+| Nacimiento moderno | 2014-2021 | Transformers + escalado masivo | Transformer, GPT-3, DALL·E |
+| Explosión y democratización | 2022-2024 | ChatGPT, Stable Diffusion, multimodalidad | ChatGPT, Midjourney, Sora |
+| Producción y agentes | 2025-2026+ | Agentes autónomos, ROI medible, regulación | o3, Grok 3, agentes en empresas |

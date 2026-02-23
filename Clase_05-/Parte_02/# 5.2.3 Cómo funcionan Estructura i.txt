@@ -1,0 +1,102 @@
+# 5.2.3 Cómo funcionan: Estructura interna
+    
+    Imagina que la IA generativa es como un chef súper inteligente que nunca ha probado la comida, pero ha leído millones de recetas, visto millones de fotos de platos y escuchado a millones de cocineros hablar. Ahora le pides que te prepare algo… ¿cómo lo hace?
+    
+    ### 1. Tokenización: Cortar el texto en pedacitos pequeños
+    
+    - Todo empieza convirtiendo tu prompt en “palabras” que la máquina entiende.
+    - Pero no son palabras completas: son **tokens** (trozos de 3-4 letras en promedio).
+        
+        Ejemplos reales (2026):
+        
+        - “Inteligencia” → puede ser un solo token
+        - “artificial” → otro token
+        - “¡Hola mundo!” → probablemente 4 tokens: ¡Hola, mundo, !
+    - **Analogía**: Es como si el idioma fuera Lego. El modelo no ve frases enteras, ve piezas pequeñas de Lego que puede volver a unir de mil formas.
+    - ¿Por qué importa?
+        
+        Cuanto más eficiente sea la tokenización → más texto cabe en la “memoria” del modelo (ventana de contexto).
+        
+    
+    ### 2. Embeddings: Darle “sentido” numérico a cada pedacito
+    
+    - Cada token se convierte en un vector largo de números (por ejemplo 4096 números).
+    - Palabras parecidas tienen vectores parecidos:
+        
+        “gato” y “gatito” están muy cerca en ese espacio matemático.
+        
+        “gato” y “mesa” están muy lejos.
+        
+    - **Analogía**: Imagina un mapa gigante de significados.
+        
+        “rey” está cerca de “reina”, “monarca”, “corona”.
+        
+        “rey” está lejos de “zanahoria” o “bicicleta”.
+        
+    - Esto permite que el modelo entienda sinónimos, analogías y contexto sin que le hayas enseñado reglas explícitas.
+    
+    ### 3. Transformers: El corazón de casi todo (desde 2017)
+    
+    - La arquitectura Transformer es como una **cinta transportadora gigante con muchas estaciones de atención**.
+    - Cada estación hace lo mismo:
+        
+        “Mira todo lo que ya llegó antes y decide qué partes son importantes para predecir la siguiente palabra”.
+        
+    - **Mecanismo de Atención** (la gran idea de 2017)
+        
+        Analogía: Cuando lees una novela y llegas al capítulo 10, tu cerebro automáticamente recuerda que “el detective” del capítulo 1 es la misma persona que “él” en el capítulo 10.
+        
+        → La atención hace exactamente eso, pero a escala brutal: compara cada palabra con todas las anteriores (¡millones de comparaciones por segundo!).
+        
+    - Hay muchas capas (de 12 en modelos pequeños hasta >100 en los grandes).
+        
+        Cada capa refina un poco más la comprensión.
+        
+    
+    ### 4. Predicción paso a paso (Autoregresivo)
+    
+    - Casi todos los modelos generativos actuales son **autoregresivos**:
+        
+        Predicen **una sola pieza** a la vez, la añaden al texto, y vuelven a predecir la siguiente.
+        
+    - Ejemplo simplificado:
+        
+        Prompt: “El gato está sentado en la”
+        
+        → Predice: “mesa” (alta probabilidad)
+        
+        → Ahora: “El gato está sentado en la mesa y”
+        
+        → Predice: “mira”
+        
+        → Y así hasta terminar.
+        
+    - Esto explica por qué a veces “se repite” o “se inventa cosas”: está adivinando la pieza más probable según todo lo aprendido.
+    
+    ### 5. Difusión (para imágenes y vídeo) – Proceso inverso al ruido
+    
+    - Para imágenes no se predice palabra por palabra, sino píxel por píxel… pero de forma inteligente.
+    - Proceso de entrenamiento:
+        1. Cogen una foto real
+        2. Le añaden ruido poco a poco hasta que es puro ruido blanco
+        3. Aprenden a quitar ruido paso a paso hasta recuperar la imagen original
+    - Al generar:
+        
+        Empiezan con ruido puro → aplican el “saber quitar ruido” guiados por tu prompt → al final sale tu imagen.
+        
+    - **Analogía**: Es como si el modelo fuera un escultor que parte de un bloque de mármol completamente ruidoso y va tallando poco a poco hasta que aparece exactamente lo que pediste.
+    
+    ### Resumen visual simple (sin imagen, solo texto para recordar)
+    
+    ```
+    Prompt → Tokenización (cortar en trozos)
+           → Embeddings (darle coordenadas de significado)
+           → Transformers (atención: mirar todo lo anterior)
+           → Predicción paso a paso (una pieza cada vez)
+           → Salida final (texto / imagen limpia / voz)
+    ```
+    
+    Para difusión (imágenes):
+    
+    Ruido puro → Quitar ruido guiado por prompt → Imagen coherente
+    
