@@ -1,0 +1,21 @@
+﻿ID_Venta,Fecha,Marca,Modelo,Año,Color,Precio,Cliente,Ciudad,Metodo_Pago,Vendedor
+1,2026-01-05,Toyota,Corolla,2022,Blanco,18500,Carlos Gómez,Madrid,Financiado,Ana Ruiz
+2,2026-01-07,Volkswagen,Golf,2021,Negro,21000,Lucía Fernández,Barcelona,Contado,Pedro López
+3,2026-01-09,Ford,Focus,2020,Azul,17500,Miguel Torres,Valencia,Financiado,Laura Sánchez
+4,2026-01-12,BMW,320i,2023,Gris,42000,Sofía Martín,Sevilla,Transferencia,Diego Castro
+5,2026-01-15,Audi,A3,2022,Rojo,39500,Daniel Pérez,Bilbao,Financiado,Ana Ruiz
+6,2026-01-18,Mercedes,A180,2023,Blanco,41000,Elena Navarro,Zaragoza,Contado,Pedro López
+7,2026-01-20,Kia,Ceed,2021,Azul,19000,Raúl Medina,Málaga,Financiado,Laura Sánchez
+8,2026-01-22,Hyundai,Tucson,2022,Gris,28000,Patricia Vega,Murcia,Transferencia,Diego Castro
+9,2026-01-25,Nissan,Qashqai,2023,Negro,30000,Alberto Ruiz,Valladolid,Financiado,Ana Ruiz
+10,2026-01-27,Peugeot,308,2021,Blanco,20500,Carmen Díaz,Alicante,Contado,Pedro López
+11,2026-02-01,Renault,Clio,2020,Rojo,16000,David León,Madrid,Financiado,Laura Sánchez
+12,2026-02-03,Seat,León,2022,Gris,22000,María Castro,Barcelona,Transferencia,Diego Castro
+13,2026-02-05,Skoda,Octavia,2023,Azul,27000,Javier Molina,Valencia,Financiado,Ana Ruiz
+14,2026-02-08,Tesla,Model 3,2024,Blanco,48000,Paula Herrera,Sevilla,Transferencia,Pedro López
+15,2026-02-10,Volvo,XC40,2023,Negro,45000,Sergio Vidal,Bilbao,Contado,Laura Sánchez
+16,2026-02-12,Mazda,CX-5,2022,Gris,32000,Ana Gil,Zaragoza,Financiado,Diego Castro
+17,2026-02-15,Opel,Astra,2021,Azul,19500,Roberto Cano,Málaga,Contado,Ana Ruiz
+18,2026-02-18,Fiat,Tipo,2020,Blanco,15000,Isabel Soto,Murcia,Financiado,Pedro López
+19,2026-02-20,Citroën,C4,2022,Rojo,21000,Tomás Rojas,Valladolid,Transferencia,Laura Sánchez
+20,2026-02-22,Dacia,Duster,2023,Gris,23000,Nuria Campos,Alicante,Financiado,Diego Castro
