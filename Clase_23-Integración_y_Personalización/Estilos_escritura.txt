@@ -1,0 +1,55 @@
+
+Estilos de escritura personalizados en Claude
+
+Resumen
+Optimiza cómo escribes con Claude: configura estilos de escritura reutilizables para adaptar tono, claridad y profundidad sin recargar el prompt. Gana velocidad, consistencia y control al cambiar de estilo en tiempo real según el canal o el objetivo, desde chat hasta proyectos completos.
+
+¿Cómo elegir y aplicar estilos de escritura en Claude?
+
+Selecciona un estilo en cualquier conversación: chat, artefacto o proyecto. Así separas el “qué” del “cómo”: el contenido va en el prompt y el tono en el estilo. Puedes alternar estilos al instante según la tarea.
+
+¿Qué estilos predeterminados existen y para qué sirven?
+
+Normal: respuesta estándar y equilibrada.
+Aprendizaje: guía para que tú aprendas; hace preguntas y contrapreguntas.
+Conciso: máximo foco en brevedad; frases directas y párrafos cortos.
+Explicativo: prioriza claridad y desarrollo de ideas.
+Formal: tono profesional y cuidado.
+Ejemplo de estilo propio: Narrative Strategies creado por el usuario.
+¿Qué cambia en la respuesta con un estilo u otro?
+
+Con divulgador de AI: explica en simple y con analogías comprensibles para no técnicos.
+Con conciso: respuestas cortas, esquemáticas y sin rodeos.
+Beneficio clave: flexibilidad para ajustar claridad, tono y extensión sin reescribir instrucciones.
+¿Cómo crear un estilo personalizado paso a paso?
+
+Desde “Crear nuevos estilos”, puedes personalizar los existentes o crear uno desde cero. Comparte ejemplos de tu escritura (documentos, muestras) o describe el estilo y Claude generará una propuesta editable.
+
+¿Qué opciones de punto de partida ofrece Claude?
+
+Objetivo del estilo: para qué sirve y qué prioriza.
+Audiencia: a quién va dirigido.
+Tono de voz: cercano, formal, crítico, etc.
+Descripción general: rasgos esenciales.
+Instrucciones personalizadas: reglas específicas.
+¿Cómo describir el objetivo y validar con vista previa?
+
+Ejemplo de objetivo: “explicar temas complejos de IA en simple para profesionales no técnicos de marketing, recursos humanos, administración, finanzas y operaciones, con fines educativos”.
+Claude genera un resumen del estilo (enfoque accesible y educativo) y una vista previa: puedes probar con una entrada de blog de marketing o un cuento corto para verificar el tono.
+Acciones útiles: renombrar el estilo, editar manualmente reglas, eliminar o usar de inmediato.
+¿Cómo combinar estilos con proyectos para contenido listo para publicar?
+
+El gran valor está en combinar estilos con proyectos y flujos como pensamiento extendido. Por ejemplo, usar un proyecto “creador de posts de LinkedIn” con el estilo “divulgador de AI” para explicar redes neuronales en el contexto de machine learning: se obtiene estructura de post y un lenguaje claro para audiencias no técnicas.
+
+¿Qué habilidades y buenas prácticas conviene aplicar?
+
+Separar tono del prompt: estilo para la voz, prompt para el contenido.
+Reusar estilos en chat, artefactos y proyectos sin reconfigurar todo.
+Crear un estilo crítico: útil para detectar riesgos, vacíos o sesgos en ideas y proyectos.
+Probar con vista previa antes de usar en producción.
+Mantener librería de estilos: divulgación, crítico, humor, formal, conciso.
+¿Qué no es la IA generativa según el estilo divulgador?
+
+No es una base de datos de respuestas guardadas.
+Se explica con analogías claras: como un “pasante” que leyó miles de documentos y aprende patrones.
+“Cómo funciona” sin tecnicismos: lee grandes volúmenes de texto y genera contenido nuevo a partir de lo aprendido.

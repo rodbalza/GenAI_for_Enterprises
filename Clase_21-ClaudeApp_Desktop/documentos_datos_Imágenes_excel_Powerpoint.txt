@@ -1,0 +1,212 @@
+
+Análisis de documentos e imágenes con Claude
+La IA puede transformar montones de archivos en acciones claras. Con Claude, es posible analizar documentos, imágenes y PDFs largos para extraer insights, estructurarlos en tablas y convertirlos en estrategias listas para ejecutar. Aquí aprenderás a adjuntar archivos, aplicar prompting efectivo, aprovechar modelos multimodales y activar el pensamiento extendido para acelerar resultados, incluso creando un plan con el Business Model Canvas.
+
+¿Cómo analizar documentos e imágenes con Claude?
+
+Adjunta documentos, presentaciones, imágenes o datos y obtén respuestas accionables en minutos. El objetivo: pasar de la información dispersa a decisiones. Puedes hacer clic en el signo más y elegir “Agregar archivos o fotos”, o arrastrar y soltar el archivo en la caja.
+
+¿Cómo adjuntar archivos y pedir una tabla resumen?
+
+Haz clic en el signo más y selecciona “Agregar archivos o fotos”.
+Arrastra directamente el archivo al cuadro de carga.
+Indica la tarea concreta: “traduce y resume”, “genera una tabla resumen”.
+Define el formato de salida: tabla, lista con prioridades, pasos de acción.
+¿Qué extrae Claude de imágenes complejas?
+
+Interpreta esquemas con varios ejes y conceptos.
+De una lámina sobre perfiles de consultoría estratégica, identificó 4 roles: estratega, educador, facilitador y coach.
+Reconoció ejes como contenido a personas y decir vs preguntar.
+Produjo una tabla resumen con columnas tipo: habilidad, enfoque principal, eje de acción y descripción clave.
+Usa la ventana de contexto para reutilizar la información en otros formatos, como presentaciones.
+¿Para qué sirve convertir gráficos en tablas?
+
+Extraer datos de gráficos con muchos puntos y pasarlos a tabla.
+Ordenar la información para análisis cuantitativo rápido.
+Evitar errores de transcripción manual.
+¿Qué técnicas de prompting y funciones potencian el análisis?
+
+Las estrategias de prompting siguen siendo críticas: guía a la IA con contexto y objetivo. Úsala como compañero de pensamiento: pide ideas, valida supuestos y retroalimenta para mejorar el resultado.
+
+¿Por qué importa el contexto y el prompting?
+
+Explica el objetivo: qué necesitas decidir o crear.
+Define el público: a quién va dirigido el resultado.
+Indica formatos: tabla, esquema, plan con secciones.
+Pide “siguientes pasos” para continuar la iteración.
+¿Qué es el pensamiento extendido y cómo combinarlo?
+
+Actívalo en tareas complejas y con documentos extensos.
+Combina: análisis de documentos + pensamiento extendido + prompting.
+Beneficio: la IA primero identifica el documento, extrae y consolida el contenido, entiende el marco de trabajo y luego redacta una salida sólida.
+¿Qué son los modelos multimodales con visión?
+
+Son modelos que pueden leer y ver: texto e imagen.
+Permiten cargar fotos, memes, gráficos y obtener resúmenes, tablas o explicaciones.
+Útiles para estudiar, preparar presentaciones o analizar reportes visuales.
+¿Cómo aplicar el Business Model Canvas a un e-commerce de restaurantes?
+
+Se cargó un PDF largo: una copia legal de Business Model Generation de Alexander Osterwalder e Yves Pigneur. Con ese material, se pidió crear la estrategia para una plataforma de e-commerce para restaurantes con última milla, menús y personalización, conexión con Rappi y Uber Eats, y venta directa from Web, usando el marco del libro y asumiendo los supuestos necesarios.
+
+¿Cómo usar el libro Business Model Generation dentro de Claude?
+
+Adjunta el PDF y solicita: “trabaja en base a la metodología del documento”.
+Aunque no nombres el marco, la IA identifica el libro y su estructura.
+Con pensamiento extendido, analiza, extrae y consolida antes de redactar.
+¿Qué entregables puede crear Claude?
+
+Un documento completo de estrategia (por ejemplo, para “RestoConnect”, nombre asumido por la IA).
+Secciones frecuentes: resumen ejecutivo, problema, solución, visión y misión.
+Un Business Model Canvas visual en tabla con sus bloques: segmentos, propuesta de valor, canales, relaciones, fuentes de ingresos, recursos, actividades, socios clave y estructura de costos.
+Plan de go-to-market y KPIs para seguimiento.
+Métrica destacada: GMB procesado, explicada como las ventas de los clientes procesadas mensualmente.
+Entrega en formato Word con estilo y tablas armadas.
+¿Qué datos propios conviene adjuntar?
+
+Documento de requerimientos: funcionalidades reales del producto.
+Partners específicos del mercado en el que operas.
+Costos y métricas actuales.
+Con estos insumos, la IA reemplaza supuestos genéricos por datos del negocio.
+
+Análisis de datos con Claude
+Resumen
+Analizar Excel y Google Sheets con Claude permite transformar un CRM en decisiones claras: desde un pipeline con métricas accionables hasta una segmentación avanzada con k-means. Con buenas prácticas de prompting, pensamiento extendido y el modelo Opus 4.5, es posible crear dashboards HTML, nuevas variables y archivos Excel completos listos para compartir.
+
+¿Cómo preparar la planilla y el prompt para Claude?
+
+Antes de pedir gráficos o modelos, conviene ordenar el contexto y validar supuestos. Así evitas malentendidos de columnas, estados o definiciones comerciales.
+
+¿Qué buenas prácticas activan análisis robustos?
+
+Activa pensamiento extendido para cálculos en múltiples pasos.
+Usa el modelo Opus 4.5 para análisis de datos exigentes.
+Entrega contexto claro: industria, tipo de negocio, objetivo del análisis.
+Pide primero “qué ve en el archivo” antes de cualquier cálculo.
+¿Por qué validar “qué ve” en la base?
+
+Alinea definiciones: columnas, métricas y diccionario de datos.
+Evita supuestos erróneos sobre términos como win rate, ciclo de ventas o valor ponderado.
+Permite corregir si un campo no es lo que parece, por ejemplo facturación mensual promedio vs. rango de pago.
+¿Qué contiene el CRM ejemplo?
+
+Hoja de empresas: nombre, razón social, RUT, tipo de cocina, tamaño, número de locales, sitio, Instagram, industria.
+Hoja de contactos: nombre, cargo, rol decisor, mail, teléfono, LinkedIn.
+Hoja de oportunidades: nombre, ID de empresa e ID de contacto, productos, valor en UF, etapa de negociación, estado (abierto, cerrado ganado o perdido), motivos de pérdida.
+Hoja de diccionario de datos para referencias.
+¿Qué análisis del pipeline y ventas crea Claude automáticamente?
+
+Con el archivo adjunto, Claude ejecuta el análisis en Python 3 y devuelve tablas, métricas y un dashboard HTML. La ventaja: mayor profundidad y volumen que Excel. La limitación: devuelve resultados finales, no fórmulas.
+
+¿Qué métricas y visualizaciones clave entrega?
+
+Totales y tasas: número de oportunidades, win rate, valor total y valor ponderado del pipeline.
+Ciclos: ciclo de ventas por etapa y estado.
+Funnel de ventas: leads, contactados, propuestas, cierres.
+Rendimiento por vendedor: total vs. cierres y win rate por persona.
+Análisis por producto: ventas y tasa de conversión por oferta.
+Pérdidas: motivos frecuentes como proyecto postergado, competencia o sin presupuesto.
+Hallazgos y recomendaciones: puntos accionables para mejorar conversión y tiempos.
+¿Qué limita y qué aporta Python frente a Excel?
+
+No entrega fórmulas, sí tablas y gráficos listos.
+Soporta datasets grandes y análisis profundos que exceden lo típico de una planilla.
+Permite empaquetar resultados en dashboards interactivos reutilizables.
+¿Cómo acelera un dashboard HTML interactivo?
+
+Integra métricas clave y visualizaciones en un solo visor.
+Facilita reuniones comerciales y reportes a dirección.
+Reduce el tiempo desde el análisis hasta la acción.
+¿Cómo realizar segmentación k-means y qué insights aporta?
+
+Con la misma base, Claude ejecuta k-means para crear segmentos de clientes, añade variables nuevas y exporta un Excel con hojas y tablas descriptivas, además de un dashboard de segmentación.
+
+¿Qué pasos ejecuta el modelo?
+
+Preparación: selección y normalización de variables numéricas.
+Elección de k: número óptimo de clusters.
+Entrenamiento: aplicación de k-means y cálculo de centroides.
+Evaluación: puntaje de silueta para calidad de los clusters.
+Documentación: perfiles, distribución y métricas por segmento.
+¿Qué segmentos y métricas emergen?
+
+Identificación de tres segmentos con silueta ≈ 0.205.
+Ejemplos cualitativos: PYME rápido, mediano potencial, enterprise alto valor.
+Patrones típicos: empresas grandes con ciclo más largo; PYME decide rápido pero con menor win rate y ticket menor; oportunidades de upsell en segmentos con alto potencial.
+Métricas por segmento: representación en pipeline, win rate, ciclos de venta y valores clave.
+¿Cómo entrega resultados reutilizables?
+
+Excel enriquecido con la data original y columnas nuevas: segmento, cluster, distancia al centroide, prioridad, valor por día.
+Tablas descriptivas por segmento con perfiles, recomendaciones y análisis.
+Dashboard de segmentación: visualización de segmentos, comparativas de métricas, centroides y estrategias recomendadas.
+Flujo iterativo: trabajar, corregir y volver a generar sin salir de la conversación.
+
+
+Crea Presentaciones PowerPoint con Claude
+
+Resumen
+Crear una presentación ejecutiva en PPT puede ser rápido, claro y con diseño profesional usando Claude. Con un buen prompt, pensamiento extendido activo y tus templates corporativos, es posible pasar de ideas sueltas a una narrativa sólida con storytelling orientado a la acción, cuidando tipografías, colores y una estructura lista para editar.
+
+¿Cómo crear presentaciones con Claude en minutos?
+
+Pide a Claude que genere una presentación sobre un tema y entrégale tanto la estructura deseada como la información desordenada que quieres incluir. Claude ordena, refina el storytelling y propone una estética coherente. Incluso activa el skill de .pptx para construir las diapositivas con lógica y consistencia visual.
+
+¿Qué incluir en el prompt para PPT ejecutivo?
+
+Introducción y objetivo de la reunión entre paréntesis.
+Propuestas para mejorar la productividad laboral.
+Fases del proyecto y herramientas clave.
+Cronograma de implementación.
+Resultados esperados.
+¿Qué información desordenada conviene entregar?
+
+Reorganización de equipos: máximo cinco personas por equipo.
+Estructura corporativa más plana.
+Reducción de reuniones: máximo cinco personas internas por reunión.
+Documentación de procesos: proyectos en Claude para optimizar el knowledge base.
+Plazo de implementación: dos meses.
+Resultados esperados: salir temprano, menos carga laboral, mejores outputs, más eficiencia y mayor tasa de éxito con clientes.
+Automatización de procesos manuales.
+¿Qué hace Claude con esa información?
+
+Ordena y prioriza mensajes clave.
+Construye una narrativa: trabajar mejor, no más.
+Define estructura y cierra con contenido accionable.
+Prepara cada slide con títulos, puntos y espacio para íconos.
+¿Qué técnicas de prompting y diseño mejoran el resultado?
+
+Puedes guiar el diseño: colores, tipografías y estilo. Si no sabes describirlos, envía una imagen; con visión, Claude identifica los tonos y la fuente para replicarlos. También puedes pedir una estética minimalista corporativa, por ejemplo, con acento en azul profundo y coral, y contraste tipográfico entre títulos grandes y cuerpos compactos.
+
+¿Cómo usar pensamiento extendido con archivos?
+
+Mantén activo el pensamiento extendido al trabajar con presentaciones.
+Claude itera, cuestiona y optimiza: verifica superposiciones de texto y corrige.
+Ejemplo: detecta texto superpuesto en las diapositivas 1 y 7, ajusta y vuelve a revisar.
+Simula la forma humana de trabajo: iteración, revisión y perfeccionamiento continuo.
+¿Cómo adaptar a tus templates corporativos?
+
+Sube tu template corporativo con logos y colores.
+Indica: “usa el template adjunto para este tema”.
+Agrega contexto de documentos o tu web para extraer insights.
+Transforma información entre formatos: texto a PPT, web a presentación, etc.
+¿Cómo iterar, revisar y exportar el PPT?
+
+Claude no solo genera contenido: también entrega una base editable que salta la “página en blanco”. Puedes abrir el archivo en Google Slides, descargarlo como PPT y editarlo en PowerPoint: todo queda en capas, listo para mover, ajustar o enriquecer con íconos y emojis.
+
+¿Qué resultados y estructura genera Claude?
+
+Mensaje central: trabajar mejor, no trabajar más.
+“Transformación de nuestra forma de trabajo: plan de optimización organizacional”.
+“¿Por qué estamos aquí?” con objetivos claros.
+“Lo que cambiaremos”, “Fases del proyecto” y “Cuatro pilares de transformación”.
+Documentación: “Cloud/Claude Project” como contenedor de procesos.
+Cronograma: dos meses, mes uno y mes dos.
+“Lo que vamos a lograr”: el cambio empieza hoy, sesenta días, un objetivo.
+Elementos listos para personalizar: íconos, emojis y espacios para visuales.
+¿Cómo exportar y editar rápidamente?
+
+Abre en Drive para usar Google Slides.
+Descarga como PPT y abre en PowerPoint.
+Edita elementos individuales: mueve, redimensiona y ajusta diagramación.
+Inserta íconos, cambia colores y tipografías.
+Pide más slides o nuevas secciones con el mismo estilo.
+

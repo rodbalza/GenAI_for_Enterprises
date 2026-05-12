@@ -1,0 +1,235 @@
+Perplexity: respuestas con fuentes verificables
+
+Resumen
+Cuando necesitas información real y comprobable, los modelos de lenguaje como chatGPT o Gemini pueden fallar con respuestas seguras pero inventadas. Aquí entra Perplexity: un motor de respuestas que busca en tiempo real, lee las fuentes y entrega citas verificables para que confirmes cada dato al instante. Con más de cien millones de usuarios activos y preferido por investigadores, periodistas y consultores, es ideal para decisiones informadas y trabajo profesional.
+
+¿Por qué Perplexity es diferente a otros asistentes de IA?
+
+Perplexity no es “otro chat de IA”: es un sistema centrado en respuestas basadas en evidencia. Al preguntar, realiza búsqueda en tiempo real, contrasta fuentes y muestra citas clicables. Así reduces la incertidumbre cuando preparas informes o tomas decisiones.
+
+¿qué problema resuelven las respuestas con citas?
+
+Evitan confiar ciegamente en textos generados.
+Permiten verificar el origen de cada dato con un clic.
+Aportan rigor para informes y decisiones críticas.
+¿cómo funciona la búsqueda en tiempo real con fuentes?
+
+Consulta la web en el momento de tu pregunta.
+Lee y sintetiza información relevante de múltiples fuentes.
+Devuelve una respuesta con citas que puedes revisar.
+¿por qué importa para profesionales e investigación?
+
+Ahorra tiempo al buscar, leer y resumir información.
+Aumenta la confiabilidad de tus entregables.
+Se adapta a flujos de trabajo de investigadores, periodistas y consultores.
+¿qué vas a aprender para dominar Perplexity?
+
+El objetivo es usar Perplexity como copiloto de investigación: rápido para explorar, riguroso con las fuentes e integrado a cómo ya trabajas, estudias o creas contenido.
+
+
+
+
+¿cómo hacer búsquedas rápidas y simples?
+
+Formular preguntas claras y obtener respuestas con citas.
+Iterar con follow-ups para refinar resultados.
+Validar datos sin salir del hilo.
+¿qué es el modo de investigación profunda?
+
+Un enfoque para profundizar más allá de una consulta básica.
+Reúne y organiza hallazgos con mayor detalle.
+Mantiene el vínculo con las fuentes originales.
+¿cómo aprovechar el análisis de documentos y los espacios?
+
+Subir documentos para analizarlos y extraer puntos clave.
+Usar espacios para organizar proyectos y hallazgos.
+Mantener trazabilidad de notas y fuentes.
+¿cómo combinarlo con otras IA como chatGPT o Gemini?
+
+Usar Perplexity para encontrar y citar información fiable.
+Llevar los hallazgos a otros modelos para redacción o formato.
+Integrar verificación y creatividad en un mismo flujo.
+¿cómo preparar tus tareas para practicar con Perplexity?
+
+Antes de empezar, piensa en dos o tres tareas semanales que dependan de buscar, leer o resumir información. Úsalas como base para practicar y convertir a Perplexity en tu aliado diario.
+
+¿qué tipo de tareas funcionan mejor para empezar?
+
+Elaborar informes con datos verificables.
+Revisar tendencias o novedades con fuentes.
+Resumir artículos largos con citas de respaldo.
+¿cómo convertirlo en tu copiloto de investigación?
+
+Empieza con una pregunta concreta y objetivo claro.
+Pide siempre citas y valida los enlaces.
+Organiza resultados en espacios para proyectos.
+
+Resumen
+Perplexity transforma cómo investigas: en lugar de abrir decenas de pestañas, actúas como validador de una respuesta consolidada con IA, siempre con fuentes citadas. Aquí verás cómo aprovechar su modo de búsqueda, preguntas de seguimiento, dictado, adjuntar archivos y exportar tablas para acelerar tu trabajo con confianza.
+
+¿Qué es Perplexity y por qué cambia la búsqueda?
+
+Perplexity funciona como un motor de respuestas: busca información fresca, la analiza y entrega una respuesta preconstruida con citas. Tú decides si las fuentes te sirven y ajustas tu siguiente paso sin empezar de cero.
+
+Busca siempre en tiempo real y prioriza información actualizada.
+Cita fuentes por párrafo para validar rápidamente la confiabilidad.
+Orquesta modelos de terceros: Gemini (Google), GPT (OpenAI) y Claude (Anthropic), además de su propio modelo para la búsqueda.
+Permite búsquedas secuenciales con contexto y comparaciones.
+En un ejemplo, revisó 23 sitios y devolvió un ranking de películas con una tabla formateada (puesto, nombre, universo cinematográfico y box office mundial aproximado). Puedes copiar, pegar o descargar en CSV en segundos.
+
+¿Cómo valida y cita fuentes en tiempo real?
+
+Cada bloque indica las fuentes utilizadas. Con el botón “Sources” ves el listado completo: por ejemplo, ScreenRant, IMDb, Box Office Mojo o Wikipedia. La habilidad clave es la evaluación crítica de fuentes: validar reputación, consistencia y relevancia, y decidir si continúas o ajustas la consulta.
+
+¿Cómo usar Perplexity paso a paso para investigar mejor?
+
+La interfaz es similar a otras IAs, pero con una diferencia esencial: siempre busca. Puedes preguntar en lenguaje natural y profundizar con seguimientos sin perder el contexto.
+
+¿Qué preguntar en el modo búsqueda?
+
+Formula preguntas claras y contextuales. Un caso útil: pedir un ranking basado en box office de 2025. Luego, seguir con un follow-up como “¿qué estrenos de superhéroes habrá en 2026 y cómo se compara su potencial de box office con 2025?”. Perplexity compara con la respuesta previa y construye análisis comparativos sin reiniciar la investigación.
+
+Habilidad: formular preguntas de seguimiento que comparen periodos, criterios y fuentes.
+Habilidad: mantener el hilo de investigación y ampliar con nuevas búsquedas sugeridas por la herramienta.
+¿Cómo convertir resultados en entregables?
+
+Cuando Perplexity devuelve tablas, ya vienen listas para uso: copiarlas a una presentación, pegarlas en un documento o descargarlas como CSV. Esta es una práctica de síntesis y estructuración de datos para reportes rápidos.
+
+¿Cómo aprovechar dictado y voz?
+
+El modo de dictado te permite hablar y que la herramienta transcriba la consulta, ideal para preguntas complejas más rápido que al escribir. Un ejemplo: buscar “los mejores cursos de inteligencia artificial en Platzi”, con enlaces directos a los resultados. Con el modo de voz, puedes conversar y recibir respuestas habladas mientras la IA sigue buscando.
+
+¿Qué modos, fuentes y modelos potencian tus resultados?
+
+Perplexity integra modos de trabajo, tipos de búsqueda y conectores para combinar web pública y datos propios, elevando la calidad de tus respuestas.
+
+¿Qué modos principales existen?
+
+Búsqueda tradicional: ideal para respuestas rápidas con citas.
+Investigación profunda: orientada a análisis más extensos.
+Miniaplicaciones internas: automatizan tareas específicas.
+Habilidad: elegir el modo según el objetivo para ahorrar tiempo.
+
+¿Qué fuentes y conectores soporta?
+
+Tipos de búsqueda: web, académica, financiera y social en la cuenta tradicional.
+Fuentes empresariales según plan: Google Drive y OneDrive para acceder a tus archivos.
+Adjuntar archivos: locales o desde SharePoint, Dropbox o Box.
+Habilidad: enriquecer búsquedas con datos propios para análisis con contexto real.
+
+¿Qué modelos puedo elegir?
+
+Desde el botón de modelos puedes usar Gemini, GPT y Claude, además del modelo propio que orquesta la búsqueda. Recomendación: seleccionar el mejor disponible para que el sistema elija según la complejidad de la tarea.
+
+Resumen
+Elegir bien el plan de Perplexity ahorra tiempo y dinero. Aquí verás, de forma clara y directa, cómo empezar gratis, qué incluye cada plan (personal y empresarial) y cuándo conviene pagar según tu uso real. Todo explicado con ejemplos y recomendaciones prácticas basadas en la experiencia descrita.
+
+¿Cómo empezar gratis y por qué crear cuenta?
+
+Empezar es simple: entra a perplexity.ai y comienza a operar de inmediato con la versión gratuita. Funciona bien para consultas rápidas, pero sin registro pierdes el historial. Crear cuenta con Google, Apple o correo (te envían un código) habilita el historial para volver sobre tus pasos y rescatar información útil.
+
+Acceso inmediato desde perplexity.ai con uso gratuito básico.
+Sin cuenta no hay historial, se pierden tus preguntas.
+Registro con Google, Apple o correo con código.
+Con cuenta guardas conversaciones y recuperas hallazgos.
+Respuestas con fuentes y citas para verificar.
+Ejemplo práctico: consulta “¿Quiénes son los actores que le han dado vida a Superman en el cine?” y verás una lista basada en fuentes, incluyendo a Nicolas Cage por su cameo en la película de The Flash.
+¿Qué incluyen los planes personales pro y max?
+
+El plan pro amplía límites y suma funciones avanzadas; el plan max lo lleva al máximo con acceso más profundo a modelos y uso ilimitado de capacidades. Incluso en gratuito, tendrás 3 a 5 usos pro al día, suficiente para la mayoría que busca entre 6 y 8 veces por jornada. Solo paga si ya lo integras intensamente en tu rutina.
+
+¿Qué ofrece el plan pro de 17 dólares al mes?
+
+Más fuentes revisadas y mejores citas al responder.
+Acceso a modelos avanzados como GPT cinco punto dos y Cloud Opus cuatro punto cinco.
+Creación de programas o aplicaciones pequeñas para tu día a día.
+Subir más archivos y trabajar con ellos.
+Investigación profunda, generación de imágenes y más funciones ampliadas.
+¿Qué añade el plan max de 167 dólares al mes?
+
+Todo lo del pro con acceso más avanzado a modelos de Anthropic y OpenAI.
+Uso ilimitado de funciones avanzadas: investigación profunda, imágenes, vídeo, etcétera.
+Recomendado solo si necesitas prestaciones al nivel más alto.
+¿Cuándo conviene pagar y cómo aprovechar promociones?
+
+Gratuito con 3–5 usos pro diarios suele alcanzar para un uso moderado.
+Si ya es parte de tu día a día, conviene pagar el plan de veinte dólares.
+Hay partnerships y promociones: en Latinoamérica, Movistar ofrece pro por 12 meses y también hay una con PayPal.
+Revisa tus suscripciones: a veces incluyen Perplexity pro.
+¿Qué aportan los planes enterprise para equipos?
+
+A nivel empresa, los mismos planes se empaquetan con administración centralizada, mejores controles y privacidad. Las licencias se agrupan bajo una cuenta de administrador para asignarlas por asientos y acelerar el trabajo del equipo con seguridad y visibilidad del uso.
+
+¿Cómo funciona Perplexity pro por asiento?
+
+Precio: 20 dólares mensuales por asiento.
+Mismas características del pro personal.
+Administración centralizada de cuentas.
+Configuración para que no aprenda el modelo con tus datos.
+Enfoque en privacidad y seguridad.
+¿Qué suma Enterprise pro de 40 dólares mensuales?
+
+Espacios colaborativos: varios usuarios trabajan al mismo tiempo.
+Más auditoría sobre uso y datos.
+Recomendado si quieres seguridad y colaboración real en la organización.
+¿Para quién es Enterprise max?
+
+Todo lo del max, más la capa empresarial de seguridad y gestión.
+Ideal si requieres lo más avanzado con controles corporativos.
+
+Resumen
+Perplexity reúne en web, escritorio y móvil herramientas precisas para investigar mejor: búsqueda, investigación profunda, selección de fuentes, atajos, dictado, compartir pantalla, cámara y notificaciones. Conoce qué hace cada versión y cómo integrar estas funciones a tu rutina para mejorar tus resultados día a día.
+
+¿Qué diferencias hay entre web, escritorio y móvil en Perplexity?
+
+La versión web en perplexity.ai suele recibir antes las novedades y será la base de trabajo. La app de escritorio en Mac y Windows replica casi todo, y añade funciones útiles para el flujo diario. La app móvil en iPhone y Android ofrece captura inmediata con cámara y más filtros en Descubrimiento.
+
+¿Qué ofrece la aplicación web de Perplexity?
+
+Acceso prioritario a las últimas funciones.
+Interfaz completa para búsqueda, investigación profunda y creación de archivos y aplicaciones.
+Selección de fuentes principales: web, académico, finanzas y social.
+Algunas fuentes extra según plan, visibles en web y móvil.
+¿Qué funciones distintivas tiene la app de escritorio?
+
+Disponible en Mac y Windows con diseño nativo similar.
+Mismas opciones clave: búsqueda, investigación profunda, crear archivos y aplicaciones.
+Selección de fuentes principales: web, académico, finanzas y social.
+Compartir pantalla exclusivo: pedir ayuda sobre lo que ves en tu computador.
+Dictado para hablar tus prompts.
+Barra izquierda ajustada: Inicio, Descubrimiento, Espacios, Biblioteca.
+Atajos del sistema: abrir un nuevo hilo en una ventana flotante desde cualquier app y escribir sin interrumpir tu flujo.
+Un poco más limitada que la web, pero añade funciones potentes para trabajo en el computador.
+¿Qué permite la app móvil de Perplexity?
+
+Pestaña central para consultas rápidas.
+Botón “+” para adjuntar imágenes y archivos, y cámara para capturar al instante lo que ves.
+Fuentes disponibles: web, académico, finanzas, redes sociales.
+Conexión con Gmail y calendario.
+Lupa para elegir modo: búsqueda, investigación profunda o laboratorios (crear archivos y aplicaciones).
+Botones de dictado y conversación; al escribir, aparece enviar.
+Deslizar a la izquierda: Biblioteca con todas tus consultas.
+Acceso a Espacios y botón de lápiz para nuevo prompt.
+Configuración arriba a la izquierda.
+Ícono tipo fotos arriba a la derecha: Descubrimiento con noticias según tus intereses y más filtros que en la web.
+Notificaciones para avisarte cuando finalicen procesos como investigación profunda o tareas programadas, y revisar con un clic.
+¿Cómo seleccionar fuentes y modos de trabajo en Perplexity?
+
+Elegir bien las fuentes y el modo acelera la calidad de la respuesta. Alterna entre web, académico, finanzas y social según el tipo de información que necesites, y combina con búsqueda directa o investigación profunda.
+
+Fuentes principales: web para panorama general, académico para papers y rigor, finanzas para datos del sector, social para tendencias y conversación pública.
+Modos de trabajo: búsqueda para respuestas rápidas, investigación profunda para análisis más extensos, laboratorios para crear archivos y aplicaciones.
+Productividad: dictado para prompts más naturales, compartir pantalla en escritorio para soporte contextual, cámara en móvil para consultas visuales inmediatas.
+Organización: Biblioteca para historial, Espacios para proyectos, Descubrimiento con filtros en móvil para temas prioritarios.
+Alertas: notificaciones para saber cuándo un proceso termina y revisar resultados al instante.
+¿Cómo adoptar el nuevo paradigma de búsqueda con Perplexity?
+
+El cambio clave es de hábito: pasar de preguntas cortas al estilo Google y revisar enlaces, a consultas conversacionales que integran contexto, archivos y fuentes.
+
+Usa Perplexity cada vez que tengas una duda del día a día.
+Redacta prompts con intención clara y contexto breve.
+Adjunta archivos o captura con cámara para consultas situadas.
+En escritorio, abre un hilo con atajos y escribe en la ventana flotante sin salir de tu tarea.
+Aplica filtros de Descubrimiento en móvil para recibir noticias relevantes.
+Activa notificaciones para investigación profunda o tareas programadas.
+Centraliza tus avances en Espacios y consulta la Biblioteca cuando necesites retomar.

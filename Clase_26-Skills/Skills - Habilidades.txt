@@ -1,0 +1,64 @@
+Skills - Habilidades
+Resumen
+Las skills de Claude convierten tareas repetitivas en flujos rápidos y consistentes. Son habilidades reutilizables, activadas por contexto, que combinan búsquedas, plantillas y otras capacidades sin llenar la ventana de contexto. Puedes usar las que vienen nativas o crear las tuyas para documentos, presentaciones, marketing, RR. HH. u organización personal.
+
+¿Qué son las skills de Claude y por qué importan?
+
+Las skills son instrucciones repetibles y personalizables que Claude invoca cuando detecta que ayudan a la tarea. Hay nativas (navegar por Internet, crear presentaciones, documentos y planillas) y muchas más que puedes agregar desde Configuración > Capacidades. Operan como un catálogo: Claude solo lee el contenido completo de una skill cuando es relevante, evitando saturar la ventana de contexto (a diferencia de MCP).
+
+¿Cómo se activan y combinan con otras capacidades?
+
+Se disparan por contexto: no necesitas decir “usa la skill X”.
+Pueden combinarse con búsqueda y otras funciones en una misma conversación.
+Usan solo el “encabezado” (nombre y descripción) para identificarse y cargan detalles al activarse.
+Ejemplo práctico: al activar la skill de arte algorítmico, Claude buscó el logo de Platzi para inspirarse y generó un logo en código usando SVG y paleta de colores. Aquí combinó búsqueda + ejecución de skill para producir el resultado directamente en texto listo para copiar.
+
+¿Qué diferencia tienen frente a proyectos o MCP?
+
+Funcionan en cualquier chat o proyecto, se invocan cuando conviene.
+Ahorran contexto: el contenido completo de la skill se carga solo al usarla.
+Permiten encadenar tareas sin mover archivos entre espacios.
+¿Cómo crear una skill paso a paso con Skill Creator?
+
+Desde Configuración > Capacidades verás artefactos (memoria) y habilidades. Activa el Skill Creator y diseña tu propia skill guiándote por buenas prácticas. Un ejemplo potente es una skill para convertir notas semanales en una nota mensual clara y accionable.
+
+¿Dónde se configuran y qué incluye un archivo de skill?
+
+Archivo principal: skill.md con nombre y descripción arriba. Solo eso queda “siempre visible” para Claude.
+Instrucciones detalladas dentro de ese archivo, cargadas solo al activarse.
+Contenido típico para la “Monthly Review”:
+Resumen en primera persona de los grandes hitos del mes.
+Highlights con proyectos, personas y aspectos clave.
+Aprendizajes principales.
+Tabla de hábitos: qué jugaste, leíste y pensaste.
+Reuniones y proyectos relevantes.
+¿Cómo empaquetar templates y referencias?
+
+La skill se empaqueta con References/template.md, que define la estructura de la nota mensual:
+
+Semanas 1 a 4 (y semana 5 si aplica).
+Secciones para proyectos del mes, reuniones clave y aprendizajes.
+Indicaciones como “emoji sugerido por highlight”.
+Así, cada vez que activas la skill, Claude sigue el template y produce un archivo consistente. Todo queda en un solo paquete fácil de instalar con “copiar a mis habilidades”.
+
+¿Cómo se activa en un chat real?
+
+Abre un chat nuevo y comparte tus notas semanales.
+Pide: “Revisa estas notas semanales y ayúdame a sintetizarlas.”
+Claude detecta que existe una skill de Monthly Review, carga el template y redacta la nota mensual con la estructura acordada.
+En el ejemplo, el resumen incluyó hábitos como “tomar agua”, “Post de LinkedIn”, “leer diez páginas”, y referencias a lecturas como “Warbreaker” de Brandon Sanderson. El resultado quedó listo para pegar en tu sistema de notas (por ejemplo, Obsidian).
+
+¿Qué usos prácticos y ecosistema existen?
+
+Las skills desbloquean flujos compuestos y reutilizables. Puedes encadenarlas en un mismo chat para cubrir procesos completos y ahorrar tiempo con resultados consistentes.
+
+¿Qué casos de uso aceleran más tu día a día?
+
+Marketing con catálogos de ideas: anuncios en LinkedIn, marketing en Reddit, programas y partnerships.
+RR. HH.: desde descriptores de cargo hasta ranking de currículums, tabulación de entrevistas y feedback para candidatos.
+Propuestas comerciales: catálogo de cursos, tabla de precios, reglas de negocio (por ejemplo, cobrar más a directorio), y template de propuestas para generar documentos completos en minutos.
+¿Cómo aprovechar el ecosistema y compartir?
+
+Hay repositorios en GitHub con skills de marketing: A/B testing, tracking con Google Analytics, secuencias de email y optimización de conversión.
+Si trabajas con Obsidian, puedes cargar skills con mejores prácticas del ecosistema para crear notas de forma óptima.
+Cualquiera puede crear y compartir skills; instalarlas es tan simple como descargar y cargar en tu Claude.

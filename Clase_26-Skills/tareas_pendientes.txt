@@ -1,0 +1,61 @@
+LISTA DE TAREAS PENDIENTES
+
+========================
+PROYECTOS
+========================
+- Diseñar pipeline ETL con Apache Spark para dataset de ventas
+- Crear dashboard en Power BI con métricas de negocio
+- Implementar modelo de Machine Learning para predicción de churn
+- Desarrollar práctica de Docker + Hadoop para estudiantes
+- Preparar clase sobre Azure Data Factory (DP-203)
+- Construir data warehouse con esquema estrella
+- Crear repositorio Git con estructura de proyecto Big Data
+
+========================
+ESTUDIOS
+========================
+- Repasar conceptos de estadística: test t y regresión
+- Estudiar certificación DP-203 (ingesta y transformación)
+- Practicar SQL avanzado (JOINs, subqueries, índices)
+- Revisar teoría de Spark (RDD vs DataFrame)
+- Estudiar fundamentos de IA generativa
+- Leer documentación oficial de Azure Databricks
+
+========================
+COMPRAS
+========================
+- Comprar SSD para Raspberry Pi
+- Adquirir sensores IoT (temperatura, humedad)
+- Comprar cuadernos y material de estudio
+- Revisar precios de licencias software educativo
+- Comprar adaptadores USB y cables
+
+========================
+EJERCICIOS / PRÁCTICAS
+========================
+- Resolver 5 ejercicios de Python (módulos math, datetime)
+- Crear práctica de logging en Python
+- Implementar script Bash con pipes y filtros
+- Practicar consultas SQL en MySQL
+- Crear notebook con ejemplos de Pandas
+- Desarrollar ejercicio de Spark en clúster
+
+========================
+CASA
+========================
+- Limpiar escritorio de trabajo
+- Organizar documentos en carpetas
+- Hacer la compra semanal
+- Preparar comidas para la semana
+- Revisar facturas pendientes
+- Ordenar cables y dispositivos electrónicos
+
+========================
+OTRAS TAREAS
+========================
+- Revisar correo electrónico
+- Planificar semana de clases
+- Actualizar CV y perfil profesional
+- Organizar calendario de proyectos
+- Hacer copia de seguridad de archivos
+- Revisar avances de estudiantes

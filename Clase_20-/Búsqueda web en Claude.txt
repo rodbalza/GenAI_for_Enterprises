@@ -1,0 +1,32 @@
+Búsqueda web en Claude
+
+Primero puedes habilitar la herramienta desde la interfaz: ir al signo más y activar el botón de búsqueda web. Con eso, Claude tendrá disponible la búsqueda cada vez que necesites datos nuevos.
+Cuando interactúas por conversación, hay dos formas efectivas de forzar la búsqueda:
+¿Qué decir en el prompt para forzar la búsqueda?
+•	Mencionar fechas posteriores a la fecha de corte.
+•	Incluir la instrucción explícita: “busca en Internet”.
+•	Pedir información fresca o últimas noticias de un periodo definido.
+•	Combinar el objetivo con el alcance: “incluye de enero a diciembre”.
+Si no indicas “busca en Internet”, Claude puede responder solo con lo que ya sabe. Al añadir la frase clave, el modelo irá a la web, iterará con múltiples búsquedas y profundizará en lo encontrado para crear la mejor respuesta.
+¿Cómo procesa y cita las fuentes?
+•	Toma tu prompt y ejecuta búsquedas iterativas con distintas preguntas.
+•	Revisa páginas, extrae contenido relevante y lo integra a su “pensamiento”.
+•	Con esa base más tu prompt, genera la respuesta.
+•	Añade fuentes por cada parte relevante; puedes ver y abrir cada enlace para validar.
+Este flujo usa motores de búsqueda, analiza el contenido y devuelve una respuesta estructurada. A veces verás secciones sin cita directa: es el conocimiento del modelo complementando lo hallado.
+¿Qué buenas prácticas aplican al usar la búsqueda web?
+Aprovecha la función para escenarios donde la vigencia importa y necesitas verificabilidad. La combinación de conocimiento base + datos actualizados es clave para el trabajo diario.
+¿Cómo asegurar información fresca con calidad?
+•	Activa la búsqueda web desde el inicio.
+•	Señala periodos completos cuando pidas resúmenes anuales o mensuales.
+•	Pide citas por sección para rastrear cada afirmación.
+•	Revisa rápidamente las fuentes y valida su confiabilidad.
+•	Cuando sea crítico, usa la instrucción: “busca en Internet y arma la respuesta”.
+¿Qué tipos de consultas se benefician más?
+•	Noticias y lanzamientos de IA en un año específico.
+•	Mejores prácticas de recursos humanos, como “descriptor de cargo para equipos de tecnología”.
+•	Cualquier tema donde sospeches un gap de información por la fecha de corte.
+¿Cómo mantener un flujo de trabajo ágil?
+•	Deja la búsqueda activada para que Claude la use de forma autónoma cuando lo considere relevante.
+•	Redacta prompts claros con objetivo, alcance y criterios de calidad.
+•	Usa verbos de acción y especificidad técnica cuando pidas documentos como descriptores de cargo.

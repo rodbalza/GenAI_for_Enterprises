@@ -1,0 +1,67 @@
+Espacios y tareas programadas en Perplexity
+
+Resumen
+Domina los espacios de Perplexity para convertir tus flujos de investigación y creación en procesos claros, trazables y automáticos. Aquí verás cómo aprovechar templates como profile builder, ajustar settings para cambiar tono y estructura, crear un espacio de noticias de IA con fuentes confiables y activar Tareas del espacio con schedule diario.
+
+¿Qué son los espacios en Perplexity y para qué sirven?
+
+Los espacios son áreas de trabajo en la barra izquierda que centralizan proyectos o tareas. Permiten usar templates, crear espacios propios y mantener archivos y enlaces como base de conocimiento. A diferencia de otros asistentes, su gran fortaleza es que, por defecto, busca en la web y cita fuentes reales.
+
+Acceso rápido: botón de espacios y vista de templates, nuevo espacio y existentes.
+Utilidad práctica: perfiles, investigación, redacción y reportes con fuentes públicas.
+Control total: instrucciones editables, tono y formato del output listos para presentación.
+¿Cómo usar un template como profile builder?
+
+Elige el template y escribe un nombre: por ejemplo, “Quiero conocer todo sobre Freddy Vera”.
+Obtendrás un perfil con secciones como Overview, nombre completo, background profesional, educación, presencia pública y menciones recientes y rasgos de la personalidad con MBTI estimado: ENTJ.
+Lo más valioso: estructura prediseñada y fuentes que Perplexity investiga automáticamente.
+¿Cómo personalizar las instrucciones en settings?
+
+En los tres puntos, entra a settings y revisa el prompt del espacio: “eres un asistente profesional para crear perfiles…”
+Diferencia persona vs. compañía: cambia la estructura según el caso.
+Si no hay datos: indica “no encontré ninguna información”.
+Tono: claro, objetivo y profesional. Output: listo para presentación y formateado.
+Ajusta libremente: combina y modifica secciones según tu necesidad.
+¿Qué cambia al ajustar el tono y hacer roast?
+
+Se editó el prompt: “Profile Building Assistant, making a roast of the company or person” y se añadió “and humoristic”.
+El resultado incluyó “personalidad en modo roast” y frases irónicas alineadas al perfil de marketing y growth, con guiños a LinkedIn, TikTok y Notion.
+Lección clave: el tono en settings transforma la voz, sin perder estructura ni fuentes.
+¿Cómo crear un espacio desde cero para noticias de IA?
+
+Se creó “el investigador de actualidad de IA” con ícono de robot y descripción interna. Al estar vacío, se ofreció cargar archivos como base de conocimiento y agregar enlaces prioritarios para guiar la búsqueda.
+
+Fuentes priorizadas: The Verge, TechCrunch, OpenAI, Anthropic, Google Blog.
+Instrucción central: “me ayudas a encontrar las noticias más relevantes de inteligencia artificial de las últimas 24 horas y me armas un resumen ejecutivo donde poder enterarme de todo lo que está pasando”.
+Búsqueda: por defecto incluye la web, pero puedes desactivarla en settings.
+Ejemplo de resultados: Apple prueba un gran cambio para Siri usando Gemini; OpenAI planea su primer dispositivo de hardware en 2026; además, cambios en modelos avanzados, con enlaces para verificar.
+¿Cómo definir fuentes y conocimiento base?
+
+Agrega enlaces de medios y blogs confiables para priorizar resultados.
+Sube archivos si necesitas contexto propio.
+Mantén el espacio organizado: nombre, ícono y descripción claros.
+¿Cómo redactar la instrucción principal?
+
+Pide el rango temporal: “últimas 24 horas”.
+Define el entregable: “resumen ejecutivo”.
+Especifica el tema: “inteligencia artificial”.
+¿Cómo usar la búsqueda y el modo de investigación?
+
+Con la web activa, obtiene noticias con fuentes trazables.
+Si desactivas la web, funciona como asistente normal con tu base local.
+¿Cómo automatizar con tareas del espacio y programar reportes?
+
+En “Tareas del espacio” puedes definir procesos que se ejecutan solos. Se configuró un clipping diario de noticias de IA con schedule en daily a las 08:00, usando el espacio creado y sus fuentes.
+
+Programación flexible: diaria, semanal, mensual o anual.
+Notificaciones: aplicación, correo y móvil.
+Modos: búsqueda normal, investigación profunda o crear un archivo.
+Ajustes avanzados: modelo a utilizar, fuentes validadas y combinación con conectores.
+Integraciones útiles: conecta Gmail y Calendar para, por ejemplo, revisar el correo y generar una minuta con pendientes que responder.
+Resultado: reportes automáticos cada mañana, sin tener que pedirlos manualmente.
+Ideas extra mencionadas:
+
+Crea un espacio temático por proyecto con toda su información.
+Activa conexión con Microsoft o Google para actualizarte con datos nuevos de Gmail o Google Drive.
+Aprovecha la fortaleza de Perplexity: búsqueda constante con fuentes reales.
+

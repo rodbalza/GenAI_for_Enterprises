@@ -1,0 +1,58 @@
+
+Memoria de Claude: cómo funciona y cuándo activarla
+
+Resumen
+Personaliza y acelera tu trabajo activando la memoria en Claude: entiende tu contexto, recuerda proyectos y reutiliza aprendizajes de conversaciones pasadas para producir más rápido sin repetir instrucciones. Con un par de ajustes en la configuración, Claude crea un documento vivo sobre ti y tus proyectos para asistir mejor cada tarea.
+
+¿Cómo activar la memoria en Claude y qué hace?
+
+Activar la memoria es simple y marca una gran diferencia en fluidez y precisión. Además, funciona de forma inteligente: crea resúmenes por conversación y solo consulta detalles cuando detecta relevancia.
+
+¿Dónde se configura la memoria?
+
+Haz clic en tu nombre (parte inferior izquierda).
+Entra en Configuración.
+Abre el menú de capacidades.
+Activa Memoria.
+¿Cómo funciona el resumen por conversación?
+
+Genera un resumen de cada chat para identificar de qué trata.
+Cuando pides algo nuevo, busca en esos resúmenes y solo “abre” la conversación si hay algo útil.
+Es ligeramente distinto a cómo lo hacen ChatGPT y Gemini: prioriza el resumen y luego profundiza.
+Puedes permitir que genere información desde el historial para mantener contexto disponible.
+¿Qué guarda sobre ti para ayudarte?
+
+Construye un documento vivo sobre ti: rol, proyectos, intereses, idiomas, colaboraciones e historial reciente.
+Ejemplo del documento: educador de IA y consultor, empresa Rojo Innova, bilingüe, intereses como D&D, anime (One Piece y Pokémon), newsletter, colaboraciones con el Centro Nacional de Inteligencia Artificial.
+Mantiene un estado de top of mind: qué estás creando ahora, como cursos para Platzi (ChatGPT y Claude, entre otros).
+¿Qué beneficios prácticos ofrece en cursos y contenidos?
+
+La memoria te ahorra tiempo y decisiones repetidas. Claude recupera contexto previo, sugiere opciones relevantes y estructura entregables al estilo que ya usas.
+
+¿Cómo acelera crear cursos en Platzi?
+
+Prompt breve: “Quiero crear un nuevo curso para Platzi sobre alguna herramienta que no hayamos trabajado”.
+Claude consulta memoria: identifica cursos previos en ChatGPT, Claude, Gemini y Perplexity.
+Sugiere temas nuevos y, si eliges uno (por ejemplo, Copilot), propone una estructura coherente con tu manera habitual de planificar.
+Incluye detalles del formato usado: cápsulas de cinco a diez minutos y veinte a veinticuatro clases.
+Recomendación práctica: activar “pensamiento extendido” cuando trabajes con múltiples cosas.
+¿Cómo ayuda la memoria del proyecto en LinkedIn?
+
+Cada proyecto tiene memoria exclusiva del proyecto: almacena elementos clave de conversaciones de ese proyecto.
+Integra: archivos, instrucciones, rol y contexto, identidad como asistente y decisiones editoriales.
+Para creación de posts en LinkedIn, recuerda tu estilo:
+Estructura clara con flechitas.
+Uso consistente de emojis.
+Call to actions claros.
+Siempre con post data.
+Balance entre temas técnicos y accesibles.
+También recupera herramientas habituales: Claude para pensar y crear, Obsidian, Perplexity y otras para producción.
+Resultado: puedes pedir “Crea un post sobre las herramientas que uso” y no necesitas reespecificar la lista ni el tono.
+¿Cuándo conviene desactivar la memoria general?
+
+En contextos variados puede mezclar señales. Si trabajas en muchos proyectos muy diferentes, evita activar la memoria global.
+
+¿Qué recomendación aplicar por tipo de trabajo?
+
+Proyectos muy distintos: usa solo memoria por proyecto para no “cruzar cables”.
+Trabajo diario y negocio con un mismo flujo: activa la memoria completamente para pasar más rápido a la acción.

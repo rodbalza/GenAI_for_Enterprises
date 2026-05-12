@@ -1,0 +1,63 @@
+Proyectos en Claude: automatiza tareas repetitivas
+Resumen
+Trabajar con IA es más eficiente cuando estandarizas tareas repetitivas y concentras contexto. Con los proyectos en Claude podrás automatizar flujos, reusar prompts con un preprompt persistente y adjuntar archivos como base de conocimiento. Ideal para crear minutas a partir de transcripciones, componer con Suno o generar posts de LinkedIn con estructura clara.
+
+¿Cómo crear un proyecto en Claude para tareas repetitivas?
+
+Crear un proyecto agrupa instrucciones, archivos y conversaciones en una sola “carpeta”. Así, cada chat hereda el preprompt y evita repetir indicaciones.
+
+Haz clic en Proyectos en la barra izquierda.
+Presiona “Nuevo proyecto”, nombra y define el objetivo.
+Configura “Instrucciones” como preprompt persistente.
+Sube “Archivos” para armar tu base de conocimiento.
+Conversa dentro del proyecto para mantener el historial asociado.
+Ejemplo práctico: “Creador de notas o de minutas a partir de transcripciones”. La instrucción define que eres experto en minutas de reuniones, prospección de ventas, workshops, clases, corrientes de pensamiento y reuniones de equipo. La minuta debe incluir: tema principal, participantes, ideas clave, tareas y responsables, resumen en bullet list y otros temas y recursos. Si es curso o workshop, agrega ejemplos vistos y recursos prometidos.
+
+Consejo útil: en la caja de texto verás un indicador celeste cuando estás “dentro” del proyecto, confirmando que usará sus instrucciones.
+
+¿Cómo usar instrucciones y archivos como base de conocimiento?
+
+Las instrucciones actúan como contrato de calidad. Los archivos amplían criterios, estilo y datos. Con ambos, el modelo ejecuta la tarea sin que repitas qué debe hacer.
+
+Usa un preprompt con rol, formato esperado y pasos.
+Adjunta templates, manuales, o PDFs con buenas prácticas.
+Entrega mínimo contexto en cada conversación para activar el flujo.
+¿Cómo convertir transcripciones en minutas con estructura clara?
+
+Ejemplo real: se sube una transcripción completa de un workshop grabada con la app Granola. Solo se dice: “Te paso la transcripción de un workshop de guía para profesores de posgrado en una universidad chilena”. El proyecto, gracias a sus instrucciones, crea la minuta sin más.
+
+Título y contexto: “Minuta, workshop, Universidad del Desarrollo, Campus Concepción”.
+Tema principal: introducción práctica de la IA.
+Ideas clave: tipos de IA, cómo funciona la IA generativa, sesgo en los datos, estrategia de prompting, aceleración del trabajo, dónde usar y dónde no, herramientas mostradas.
+Ejemplos prácticos mostrados: listados como se pidió en las instrucciones.
+Tareas y compromisos: por ejemplo, “Rodrigo mandará esto.”
+Recursos prometidos: útil para hacer seguimiento posterior.
+Frases destacadas: “La IA no nos va a reemplazar hoy ni mañana, pero alguien que ocupe la IA sí.”
+Resultado: una minuta lista para compartir en pocos minutos, con consistencia y trazabilidad dentro del proyecto.
+
+¿Cómo crear canciones con Suno usando meta tags?
+
+Proyecto “Guaripolo” para componer en Suno con pasos guiados: elegir estilo musical, idioma, proponer 3 nombres, el usuario elige uno y se genera la letra siguiendo buenas prácticas cargadas en un PDF. Ese PDF incluye un manual de metadatos o meta tags: palabras en inglés entre corchetes que indican elementos musicales y de producción.
+
+Prompt del usuario: “Quiero crear un himno para Platzi.”
+Flujo: el proyecto sugiere estilos, confirma idioma, propone nombres (por ejemplo, “Nunca pares”).
+Creación: genera la letra con [meta tags] en inglés y el texto en español.
+Entrega: añade 5 palabras clave de estilo en inglés y el enlace a suno.com/create.
+Así se logra una letra coherente, con indicaciones técnicas listas para pegar en Suno.
+
+¿Cómo invocar y encadenar proyectos desde cualquier chat?
+
+El gran atajo: invocar proyectos con “/” desde cualquier conversación. Seleccionas el proyecto, das un prompt simple y se aplican sus instrucciones.
+
+Escribe “/” y elige el proyecto, por ejemplo “LinkedIn 2025”.
+Pide: “Crea un post sobre grabar el curso ‘Mi herramienta favorita de IA’ en Platzi.”
+El proyecto aplica su estructura: gancho, narrativa clara y cierre, con checklist de formato.
+Puedes cambiar de proyecto sobre la marcha: el chat se “mueve” y continúa con nuevas instrucciones.
+Beneficios clave:
+
+Centralización: todo el contexto vive en su “carpeta”.
+Velocidad: menos fricción al no repetir prompts.
+Consistencia: mismo formato y estándares.
+Trazabilidad: recuperas conversaciones por proyecto.
+Automatización: ideal para propuestas comerciales, perfiles de RR. HH., conversión de artículos al tono de marca y más.
+Si realizas tareas que siempre siguen la misma estructura o dependen de la misma información base, crea un proyecto y deja listo el flujo. Luego solo agrega contexto y deja que Claude convierta entradas diversas en entregables útiles.

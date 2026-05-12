@@ -1,0 +1,1003 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guía de Prompts para Claude AI</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0e0f14;
+    --surface: #16181f;
+    --surface2: #1e2029;
+    --border: #2a2d3a;
+    --accent: #d97757;
+    --accent2: #7c6af7;
+    --accent3: #3ecf8e;
+    --accent4: #f5c147;
+    --text: #e8e9f0;
+    --muted: #8891a4;
+    --card-radius: 16px;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.65;
+    overflow-x: hidden;
+  }
+
+  /* ── HEADER ── */
+  header {
+    padding: 60px 40px 50px;
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .badge {
+    display: inline-block;
+    background: rgba(217,119,87,0.15);
+    color: var(--accent);
+    border: 1px solid rgba(217,119,87,0.3);
+    padding: 4px 14px;
+    border-radius: 100px;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-family: 'Syne', sans-serif;
+    font-size: clamp(2.4rem, 5vw, 4rem);
+    font-weight: 800;
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+    margin-bottom: 18px;
+  }
+
+  h1 span { color: var(--accent); }
+
+  .subtitle {
+    color: var(--muted);
+    font-size: 17px;
+    max-width: 560px;
+    font-weight: 300;
+  }
+
+  /* ── NAV PILLS ── */
+  .nav {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    padding: 0 40px 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .nav-pill {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--muted);
+    padding: 8px 18px;
+    border-radius: 100px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+    text-decoration: none;
+  }
+
+  .nav-pill:hover, .nav-pill.active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+  }
+
+  /* ── MAIN GRID ── */
+  main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 40px 80px;
+  }
+
+  /* ── SECTION ── */
+  .section {
+    margin-bottom: 60px;
+  }
+
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 24px;
+  }
+
+  .section-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    flex-shrink: 0;
+  }
+
+  .section-title {
+    font-family: 'Syne', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+
+  .section-desc {
+    color: var(--muted);
+    font-size: 13.5px;
+    margin-top: 2px;
+  }
+
+  /* ── CARDS ── */
+  .cards {
+    display: grid;
+    gap: 16px;
+  }
+
+  .cards-2 { grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); }
+  .cards-1 { grid-template-columns: 1fr; }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--card-radius);
+    overflow: hidden;
+    transition: border-color 0.25s, transform 0.25s;
+  }
+
+  .card:hover {
+    border-color: rgba(217,119,87,0.4);
+    transform: translateY(-2px);
+  }
+
+  .card-header {
+    padding: 18px 22px 14px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .card-label {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    border-radius: 100px;
+  }
+
+  .label-bad { background: rgba(255,80,80,0.15); color: #ff6b6b; }
+  .label-good { background: rgba(62,207,142,0.15); color: var(--accent3); }
+  .label-tip { background: rgba(245,193,71,0.15); color: var(--accent4); }
+  .label-example { background: rgba(124,106,247,0.15); color: var(--accent2); }
+  .label-template { background: rgba(217,119,87,0.15); color: var(--accent); }
+
+  .card-body { padding: 18px 22px; }
+
+  .prompt-box {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 16px;
+    font-family: 'DM Mono', 'Courier New', monospace;
+    font-size: 13.5px;
+    line-height: 1.6;
+    color: #c5cae0;
+    position: relative;
+    margin: 8px 0;
+  }
+
+  .prompt-box .hl { color: var(--accent); font-weight: 500; }
+  .prompt-box .hl2 { color: var(--accent3); }
+  .prompt-box .hl3 { color: var(--accent4); }
+  .prompt-box .hl4 { color: var(--accent2); }
+
+  .copy-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    color: var(--muted);
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 11px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .copy-btn:hover { color: var(--text); border-color: var(--accent); }
+
+  .explanation {
+    color: var(--muted);
+    font-size: 13.5px;
+    margin-top: 10px;
+  }
+
+  .explanation strong { color: var(--text); font-weight: 500; }
+
+  /* ── RULE CARDS ── */
+  .rule-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 14px;
+  }
+
+  .rule-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--card-radius);
+    padding: 22px 20px;
+    transition: border-color 0.25s, transform 0.25s;
+  }
+
+  .rule-card:hover {
+    border-color: rgba(124,106,247,0.4);
+    transform: translateY(-2px);
+  }
+
+  .rule-number {
+    font-family: 'Syne', sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    color: rgba(217,119,87,0.25);
+    line-height: 1;
+    margin-bottom: 10px;
+  }
+
+  .rule-title {
+    font-family: 'Syne', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin-bottom: 6px;
+  }
+
+  .rule-desc { color: var(--muted); font-size: 13px; }
+
+  /* ── COMPARE ── */
+  .compare {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+  }
+
+  @media (max-width: 600px) { .compare { grid-template-columns: 1fr; } }
+
+  .compare-col { }
+
+  .compare-col-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  /* ── TEMPLATE BUILDER ── */
+  .template-box {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+    font-size: 14px;
+    line-height: 1.8;
+  }
+
+  .template-tag {
+    display: inline-block;
+    background: rgba(217,119,87,0.2);
+    color: var(--accent);
+    border: 1px solid rgba(217,119,87,0.3);
+    border-radius: 6px;
+    padding: 1px 8px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  /* ── ANATOMY ── */
+  .anatomy {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .anatomy-row {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    gap: 16px;
+    padding: 14px 0;
+    border-bottom: 1px solid var(--border);
+    align-items: start;
+  }
+
+  .anatomy-row:last-child { border-bottom: none; }
+
+  .anatomy-part {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border-radius: 100px;
+    text-align: center;
+  }
+
+  .anatomy-content { }
+  .anatomy-title { font-weight: 500; font-size: 14px; margin-bottom: 2px; }
+  .anatomy-desc { color: var(--muted); font-size: 13px; }
+
+  /* ── DIVIDER ── */
+  .divider {
+    height: 1px;
+    background: var(--border);
+    margin: 48px 0;
+  }
+
+  /* ── HERO PROMPT ── */
+  .hero-prompt {
+    background: linear-gradient(135deg, rgba(217,119,87,0.08), rgba(124,106,247,0.08));
+    border: 1px solid rgba(217,119,87,0.2);
+    border-radius: 20px;
+    padding: 32px;
+    margin-bottom: 16px;
+  }
+
+  .hero-prompt-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 16px;
+  }
+
+  .hero-prompt-text {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--text);
+  }
+
+  .hp-part {
+    border-bottom: 2px solid;
+    padding-bottom: 1px;
+    cursor: default;
+  }
+
+  .hp-role { border-color: var(--accent); }
+  .hp-context { border-color: var(--accent2); }
+  .hp-task { border-color: var(--accent3); }
+  .hp-format { border-color: var(--accent4); }
+
+  .hp-legend {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 16px;
+  }
+
+  .hp-legend-item {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 12px;
+    color: var(--muted);
+  }
+
+  .hp-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  /* ── CHECKLIST ── */
+  .checklist { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+
+  .checklist li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 14px;
+    color: var(--muted);
+  }
+
+  .checklist li::before {
+    content: '✓';
+    color: var(--accent3);
+    font-weight: 700;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+
+  .checklist li strong { color: var(--text); }
+
+  /* ── FADE IN ── */
+  .section { opacity: 0; transform: translateY(20px); transition: opacity 0.5s, transform 0.5s; }
+  .section.visible { opacity: 1; transform: none; }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 700px) {
+    header, .nav, main { padding-left: 20px; padding-right: 20px; }
+    h1 { font-size: 2rem; }
+    .cards-2 { grid-template-columns: 1fr; }
+    .compare { grid-template-columns: 1fr; }
+  }
+
+  .toast {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%) translateY(60px);
+    background: var(--surface2);
+    border: 1px solid var(--accent3);
+    color: var(--accent3);
+    padding: 10px 22px;
+    border-radius: 100px;
+    font-size: 13px;
+    font-weight: 500;
+    z-index: 999;
+    transition: transform 0.3s;
+  }
+
+  .toast.show { transform: translateX(-50%) translateY(0); }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="badge">Guía de Ingeniería de Prompts</div>
+  <h1>El Arte de<br>Hablarle a <span>Claude AI</span></h1>
+  <p class="subtitle">Aprende a escribir prompts efectivos con ejemplos prácticos, comparaciones y plantillas listas para usar.</p>
+</header>
+
+<nav class="nav">
+  <a class="nav-pill active" href="#anatomia">Anatomía</a>
+  <a class="nav-pill" href="#reglas">Las 5 Reglas</a>
+  <a class="nav-pill" href="#comparacion">Bueno vs Malo</a>
+  <a class="nav-pill" href="#tecnicas">Técnicas</a>
+  <a class="nav-pill" href="#plantillas">Plantillas</a>
+  <a class="nav-pill" href="#checklist">Checklist</a>
+</nav>
+
+<main>
+
+  <!-- ── SECTION 0: INTRO ── -->
+  <div class="section visible" id="intro">
+    <div class="hero-prompt">
+      <div class="hero-prompt-label">🔍 Anatomía de un prompt excelente</div>
+      <div class="hero-prompt-text">
+        <span class="hp-part hp-role">Actúa como un nutricionista experto</span>.
+        <span class="hp-part hp-context">Estoy preparando mi primera semana de dieta mediterránea con un presupuesto de 30€.</span>
+        <span class="hp-part hp-task">Crea un plan de 5 comidas para el lunes, con ingredientes, cantidades y calorías aproximadas.</span>
+        <span class="hp-part hp-format">Formato: una tabla con columnas: Comida | Ingredientes | Calorías. Responde en español.</span>
+      </div>
+      <div class="hp-legend">
+        <div class="hp-legend-item"><div class="hp-dot" style="background:var(--accent)"></div> Rol / Persona</div>
+        <div class="hp-legend-item"><div class="hp-dot" style="background:var(--accent2)"></div> Contexto</div>
+        <div class="hp-legend-item"><div class="hp-dot" style="background:var(--accent3)"></div> Tarea clara</div>
+        <div class="hp-legend-item"><div class="hp-dot" style="background:var(--accent4)"></div> Formato de salida</div>
+      </div>
+    </div>
+    <p class="explanation">Un prompt bien estructurado tiene <strong>4 ingredientes clave</strong>. Cuantos más incluyas, mejor será la respuesta de Claude.</p>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- ── SECTION 1: ANATOMIA ── -->
+  <div class="section" id="anatomia">
+    <div class="section-header">
+      <div class="section-icon" style="background:rgba(217,119,87,0.15)">🧬</div>
+      <div>
+        <div class="section-title">Los 4 Ingredientes de un Prompt</div>
+        <div class="section-desc">Combínalos para obtener respuestas precisas y útiles</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-body">
+        <div class="anatomy">
+          <div class="anatomy-row">
+            <span class="anatomy-part" style="background:rgba(217,119,87,0.15);color:var(--accent)">Rol</span>
+            <div class="anatomy-content">
+              <div class="anatomy-title">Dale un papel a Claude</div>
+              <div class="anatomy-desc">Define quién es Claude en esta conversación. Esto orienta su tono, vocabulario y nivel de profundidad.</div>
+              <div class="prompt-box" style="margin-top:10px">"<span class="hl">Actúa como un profesor de Python para principiantes</span>..."</div>
+            </div>
+          </div>
+          <div class="anatomy-row">
+            <span class="anatomy-part" style="background:rgba(124,106,247,0.15);color:var(--accent2)">Contexto</span>
+            <div class="anatomy-content">
+              <div class="anatomy-title">Aporta información de fondo</div>
+              <div class="anatomy-desc">¿Quién eres tú? ¿Cuál es tu situación? ¿Para qué sirve esto? Más contexto = respuesta más personalizada.</div>
+              <div class="prompt-box" style="margin-top:10px">"...<span class="hl4">Tengo 25 años, soy diseñadora gráfica sin experiencia en código y quiero automatizar tareas repetitivas en mi trabajo</span>..."</div>
+            </div>
+          </div>
+          <div class="anatomy-row">
+            <span class="anatomy-part" style="background:rgba(62,207,142,0.15);color:var(--accent3)">Tarea</span>
+            <div class="anatomy-content">
+              <div class="anatomy-title">Especifica exactamente qué quieres</div>
+              <div class="anatomy-desc">Usa verbos de acción claros: Explica, Escribe, Lista, Compara, Resume, Crea, Analiza...</div>
+              <div class="prompt-box" style="margin-top:10px">"...<span class="hl2">Explícame qué son las variables en Python con 3 ejemplos prácticos del mundo real</span>..."</div>
+            </div>
+          </div>
+          <div class="anatomy-row">
+            <span class="anatomy-part" style="background:rgba(245,193,71,0.15);color:var(--accent4)">Formato</span>
+            <div class="anatomy-content">
+              <div class="anatomy-title">Indica cómo quieres la respuesta</div>
+              <div class="anatomy-desc">Longitud, estructura, idioma, tono, si quieres tablas, listas, código... Claude respetará tus preferencias.</div>
+              <div class="prompt-box" style="margin-top:10px">"...<span class="hl3">Usa un lenguaje simple, sin jerga técnica. Máximo 200 palabras por ejemplo. Incluye un bloque de código para cada uno.</span>"</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- ── SECTION 2: LAS 5 REGLAS ── -->
+  <div class="section" id="reglas">
+    <div class="section-header">
+      <div class="section-icon" style="background:rgba(124,106,247,0.15)">⚡</div>
+      <div>
+        <div class="section-title">Las 5 Reglas de Oro</div>
+        <div class="section-desc">Principios que aplican a cualquier tipo de prompt</div>
+      </div>
+    </div>
+
+    <div class="rule-grid">
+      <div class="rule-card">
+        <div class="rule-number">01</div>
+        <div class="rule-title">Sé específico, no vago</div>
+        <div class="rule-desc">Cuanto más preciso seas, mejor podrá ayudarte Claude. Evita palabras como "algo", "un poco", "más o menos".</div>
+      </div>
+      <div class="rule-card">
+        <div class="rule-number">02</div>
+        <div class="rule-title">Un prompt, una tarea</div>
+        <div class="rule-desc">No pidas 10 cosas a la vez. Divide tareas complejas en pasos. Claude puede hacer conversación, ¡aprovéchalo!</div>
+      </div>
+      <div class="rule-card">
+        <div class="rule-number">03</div>
+        <div class="rule-title">Muestra con ejemplos</div>
+        <div class="rule-desc">Si quieres un estilo concreto, proporciona un ejemplo. "Escríbelo como esto: [ejemplo]" funciona muy bien.</div>
+      </div>
+      <div class="rule-card">
+        <div class="rule-number">04</div>
+        <div class="rule-title">Pide razonamiento paso a paso</div>
+        <div class="rule-desc">Para problemas complejos, añade: "Piensa paso a paso" o "Explica tu razonamiento". Mejora mucho la calidad.</div>
+      </div>
+      <div class="rule-card">
+        <div class="rule-number">05</div>
+        <div class="rule-title">Itera y refina</div>
+        <div class="rule-desc">Si la respuesta no es perfecta, no empieces de cero. Di "Hazlo más corto", "Cambia el tono" o "Añade ejemplos".</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- ── SECTION 3: COMPARACION ── -->
+  <div class="section" id="comparacion">
+    <div class="section-header">
+      <div class="section-icon" style="background:rgba(62,207,142,0.15)">⚖️</div>
+      <div>
+        <div class="section-title">Prompts Malos vs Buenos</div>
+        <div class="section-desc">Aprende viendo la diferencia en ejemplos reales</div>
+      </div>
+    </div>
+
+    <div class="cards cards-1">
+
+      <!-- EJEMPLO 1 -->
+      <div class="card">
+        <div class="card-header">
+          <span style="font-size:16px">📚</span>
+          <span style="font-weight:600">Caso: Aprender un tema</span>
+        </div>
+        <div class="card-body">
+          <div class="compare">
+            <div class="compare-col">
+              <div class="compare-col-label"><span style="color:#ff6b6b">✗</span> Prompt débil</div>
+              <div class="prompt-box">Explícame machine learning.</div>
+              <p class="explanation" style="margin-top:8px">❌ Demasiado vago. ¿Qué nivel? ¿Para qué? ¿Cuánto detalle?</p>
+            </div>
+            <div class="compare-col">
+              <div class="compare-col-label"><span style="color:var(--accent3)">✓</span> Prompt poderoso</div>
+              <div class="prompt-box">Actúa como un tutor de universidad. <span class="hl">Soy estudiante de marketing sin experiencia técnica.</span> Explícame machine learning en <span class="hl2">3 conceptos clave, con una analogía del mundo real para cada uno</span>. <span class="hl3">Máximo 150 palabras en total.</span></div>
+              <p class="explanation" style="margin-top:8px">✅ Tiene rol, contexto, tarea concreta y límite de extensión.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- EJEMPLO 2 -->
+      <div class="card">
+        <div class="card-header">
+          <span style="font-size:16px">✉️</span>
+          <span style="font-weight:600">Caso: Escribir un email</span>
+        </div>
+        <div class="card-body">
+          <div class="compare">
+            <div class="compare-col">
+              <div class="compare-col-label"><span style="color:#ff6b6b">✗</span> Prompt débil</div>
+              <div class="prompt-box">Escríbeme un email profesional.</div>
+              <p class="explanation" style="margin-top:8px">❌ ¿Para quién? ¿Sobre qué? ¿Qué tono? Claude tendrá que inventarlo todo.</p>
+            </div>
+            <div class="compare-col">
+              <div class="compare-col-label"><span style="color:var(--accent3)">✓</span> Prompt poderoso</div>
+              <div class="prompt-box">Escribe un email <span class="hl">formal pero cercano</span> para pedir una reunión a mi jefe. <span class="hl2">Quiero proponer implementar un nuevo sistema de gestión de tareas. Motivos: ahorrará 2h/día al equipo.</span> <span class="hl3">Máximo 5 oraciones. Sin saludos genéricos como "Espero que estés bien".</span></div>
+              <p class="explanation" style="margin-top:8px">✅ Tono definido, propósito claro, argumentos, restricciones de estilo.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- EJEMPLO 3 -->
+      <div class="card">
+        <div class="card-header">
+          <span style="font-size:16px">💻</span>
+          <span style="font-weight:600">Caso: Ayuda con código</span>
+        </div>
+        <div class="card-body">
+          <div class="compare">
+            <div class="compare-col">
+              <div class="compare-col-label"><span style="color:#ff6b6b">✗</span> Prompt débil</div>
+              <div class="prompt-box">Mi código no funciona, arréglalo.</div>
+              <p class="explanation" style="margin-top:8px">❌ No hay código, no hay error, no hay contexto. Imposible ayudar.</p>
+            </div>
+            <div class="compare-col">
+              <div class="compare-col-label"><span style="color:var(--accent3)">✓</span> Prompt poderoso</div>
+              <div class="prompt-box">Soy estudiante de Python (nivel básico). <span class="hl">Este código debería calcular el promedio de una lista, pero me da el error: "TypeError: unsupported operand type".</span> <span class="hl2">Aquí está el código: [código].</span> <span class="hl3">Explica el error en lenguaje simple y muéstrame la versión corregida.</span></div>
+              <p class="explanation" style="margin-top:8px">✅ Nivel del estudiante, qué hace el código, el error exacto, qué quiere.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- ── SECTION 4: TECNICAS ── -->
+  <div class="section" id="tecnicas">
+    <div class="section-header">
+      <div class="section-icon" style="background:rgba(245,193,71,0.15)">🛠️</div>
+      <div>
+        <div class="section-title">5 Técnicas Avanzadas</div>
+        <div class="section-desc">Herramientas profesionales explicadas de forma simple</div>
+      </div>
+    </div>
+
+    <div class="cards cards-2">
+
+      <div class="card">
+        <div class="card-header">
+          <span class="card-label label-tip">Técnica 1</span>
+          <span style="font-weight:600">Few-Shot: Dar ejemplos</span>
+        </div>
+        <div class="card-body">
+          <p class="explanation">Muestra a Claude el patrón que quieres que siga antes de pedirle la tarea real.</p>
+          <div class="prompt-box" style="margin-top:12px">
+            Transforma estas frases a un tono más positivo.<br><br>
+            <span class="hl">Ejemplo 1:</span><br>
+            Original: "El proyecto está atrasado"<br>
+            Positivo: "Estamos ajustando los tiempos para entregar con calidad"<br><br>
+            <span class="hl">Ejemplo 2:</span><br>
+            Original: "Cometimos un error"<br>
+            Positivo: "Encontramos una oportunidad de mejora"<br><br>
+            <span class="hl2">Ahora hazlo con:</span><br>
+            "No tenemos presupuesto para esto"
+            <button class="copy-btn" onclick="copyText(this)">Copiar</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <span class="card-label label-tip">Técnica 2</span>
+          <span style="font-weight:600">Chain of Thought: Paso a paso</span>
+        </div>
+        <div class="card-body">
+          <p class="explanation">Pide a Claude que muestre su razonamiento. Ideal para matemáticas, lógica y análisis.</p>
+          <div class="prompt-box" style="margin-top:12px">
+            Un tren sale de Madrid a las 8:00 a 120 km/h. Otro tren sale de Barcelona a las 9:30 a 150 km/h. La distancia es 600 km.<br><br>
+            <span class="hl">Antes de responder, muestra todos tus pasos de cálculo.</span> Indica claramente en qué momento se cruzan y a qué distancia de Madrid.
+            <button class="copy-btn" onclick="copyText(this)">Copiar</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <span class="card-label label-tip">Técnica 3</span>
+          <span style="font-weight:600">Role-Playing: Asignar un rol</span>
+        </div>
+        <div class="card-body">
+          <p class="explanation">Claude adapta su vocabulario, tono y profundidad según el rol que le asignes.</p>
+          <div class="prompt-box" style="margin-top:12px">
+            <span class="hl">Actúa como un abogado español especialista en contratos laborales.</span> Te voy a describir una situación y quiero que me expliques mis derechos, los riesgos posibles y qué debería hacer. Usa un lenguaje claro, no demasiado técnico. Indica cuándo es necesario consultar a un profesional real.
+            <button class="copy-btn" onclick="copyText(this)">Copiar</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <span class="card-label label-tip">Técnica 4</span>
+          <span style="font-weight:600">Restricciones Negativas</span>
+        </div>
+        <div class="card-body">
+          <p class="explanation">Dile a Claude qué NO quieres. A veces definir los límites es más efectivo que describir el objetivo.</p>
+          <div class="prompt-box" style="margin-top:12px">
+            Escribe una descripción para mi producto (una app de meditación).<br><br>
+            <span class="hl">No uses:</span> palabras como "transformar", "revolucionar", "mindfulness", ni frases clichés. <span class="hl2">No uses bullet points.</span> <span class="hl3">No superes las 80 palabras.</span> El tono debe ser cálido, como hablarle a un amigo.
+            <button class="copy-btn" onclick="copyText(this)">Copiar</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <span class="card-label label-tip">Técnica 5</span>
+          <span style="font-weight:600">Output Estructurado</span>
+        </div>
+        <div class="card-body">
+          <p class="explanation">Especifica exactamente el formato de salida que necesitas: tablas, JSON, listas, etc.</p>
+          <div class="prompt-box" style="margin-top:12px">
+            Analiza las ventajas y desventajas de trabajar de forma remota.<br><br>
+            <span class="hl">Formato de respuesta:</span><br>
+            📊 Tabla con 3 columnas: Aspecto | Ventaja | Desventaja<br>
+            Incluye exactamente <span class="hl2">5 aspectos</span>: productividad, salud, costes, relaciones sociales, conciliación.<br>
+            <span class="hl3">Al final, una conclusión de 2 oraciones.</span>
+            <button class="copy-btn" onclick="copyText(this)">Copiar</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <span class="card-label label-tip">Técnica 6</span>
+          <span style="font-weight:600">Iteración Inteligente</span>
+        </div>
+        <div class="card-body">
+          <p class="explanation">En lugar de reescribir el prompt entero, refina la respuesta con instrucciones cortas y precisas.</p>
+          <div class="prompt-box" style="margin-top:12px">
+            <span style="color:var(--muted); font-size:12px">// Después de recibir una primera respuesta...</span><br><br>
+            <span class="hl">Opciones de refinamiento:</span><br><br>
+            → "Hazlo un 50% más corto manteniendo las ideas clave"<br>
+            → "Reescríbelo con un tono más informal"<br>
+            → "Añade datos estadísticos reales al punto 2"<br>
+            → "Simplifica el vocabulario para un público de 14 años"<br>
+            → "Conviértelo en una lista de puntos de acción"
+            <button class="copy-btn" onclick="copyText(this)">Copiar</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- ── SECTION 5: PLANTILLAS ── -->
+  <div class="section" id="plantillas">
+    <div class="section-header">
+      <div class="section-icon" style="background:rgba(217,119,87,0.15)">📋</div>
+      <div>
+        <div class="section-title">Plantillas Listas para Usar</div>
+        <div class="section-desc">Copia, personaliza y lanza. Funcionan para el 90% de los casos.</div>
+      </div>
+    </div>
+
+    <div class="cards cards-2">
+
+      <div class="card">
+        <div class="card-header">
+          <span class="card-label label-template">Plantilla</span>
+          <span style="font-weight:600">Aprender cualquier tema</span>
+        </div>
+        <div class="card-body">
+          <div class="prompt-box">
+            Actúa como un experto en <span class="template-tag">[tema]</span>.<br>
+            Soy <span class="template-tag">[tu nivel: principiante/intermedio]</span> y quiero entender <span class="template-tag">[concepto específico]</span>.<br><br>
+            Explícamelo con:<br>
+            – Una analogía del mundo real<br>
+            – 2 ejemplos prácticos<br>
+            – Los 3 errores más comunes<br><br>
+            Lenguaje simple, sin jerga innecesaria. Máximo 300 palabras.
+            <button class="copy-btn" onclick="copyText(this)">Copiar</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <span class="card-label label-template">Plantilla</span>
+          <span style="font-weight:600">Revisión y mejora de textos</span>
+        </div>
+        <div class="card-body">
+          <div class="prompt-box">
+            Eres un editor profesional. Revisa el siguiente texto y:<br><br>
+            1. Corrige errores gramaticales y ortográficos<br>
+            2. Mejora la claridad sin cambiar el significado<br>
+            3. Elimina redundancias<br>
+            4. Mantén el tono <span class="template-tag">[formal/informal/técnico]</span><br><br>
+            Devuelve:<br>
+            – El texto corregido<br>
+            – Una lista de los 3 cambios principales que hiciste y por qué<br><br>
+            Texto: <span class="template-tag">[tu texto aquí]</span>
+            <button class="copy-btn" onclick="copyText(this)">Copiar</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <span class="card-label label-template">Plantilla</span>
+          <span style="font-weight:600">Tomar decisiones difíciles</span>
+        </div>
+        <div class="card-body">
+          <div class="prompt-box">
+            Ayúdame a evaluar esta decisión de forma objetiva.<br><br>
+            <span class="hl">Contexto:</span> <span class="template-tag">[describe tu situación]</span><br>
+            <span class="hl">Las opciones son:</span><br>
+            A) <span class="template-tag">[opción 1]</span><br>
+            B) <span class="template-tag">[opción 2]</span><br><br>
+            <span class="hl">Lo más importante para mí:</span> <span class="template-tag">[tus prioridades]</span><br><br>
+            Analiza pros y contras de cada opción. No me des directamente la respuesta: ayúdame a pensar con claridad.
+            <button class="copy-btn" onclick="copyText(this)">Copiar</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <span class="card-label label-template">Plantilla</span>
+          <span style="font-weight:600">Generar ideas creativas</span>
+        </div>
+        <div class="card-body">
+          <div class="prompt-box">
+            Actúa como un consultor creativo con 20 años de experiencia.<br><br>
+            Necesito ideas para <span class="template-tag">[objetivo]</span>.<br>
+            Contexto: <span class="template-tag">[describe tu proyecto/producto/situación]</span><br>
+            Público objetivo: <span class="template-tag">[quiénes son]</span><br><br>
+            Dame <span class="template-tag">[número]</span> ideas originales. Para cada una:<br>
+            – Nombre de la idea<br>
+            – Cómo funciona (2 oraciones)<br>
+            – Por qué conectaría con el público<br><br>
+            Prioriza ideas sorprendentes sobre las obvias.
+            <button class="copy-btn" onclick="copyText(this)">Copiar</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <span class="card-label label-template">Plantilla</span>
+          <span style="font-weight:600">Resumir documentos largos</span>
+        </div>
+        <div class="card-body">
+          <div class="prompt-box">
+            Resume el siguiente <span class="template-tag">[artículo/libro/informe]</span> con este formato:<br><br>
+            🎯 <span class="hl">Idea principal</span> (1 oración)<br>
+            📌 <span class="hl2">Puntos clave</span> (máximo 5 bullets)<br>
+            💡 <span class="hl3">Conclusión o aprendizaje</span> (2 oraciones)<br>
+            ❓ <span class="hl4">Una pregunta que genera el texto</span><br><br>
+            Lenguaje claro para alguien no experto en el tema.<br><br>
+            Texto: <span class="template-tag">[pega el texto aquí]</span>
+            <button class="copy-btn" onclick="copyText(this)">Copiar</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <span class="card-label label-template">Plantilla</span>
+          <span style="font-weight:600">Preparar una presentación</span>
+        </div>
+        <div class="card-body">
+          <div class="prompt-box">
+            Soy <span class="template-tag">[tu rol]</span> y voy a presentar sobre <span class="template-tag">[tema]</span> a <span class="template-tag">[audiencia]</span>.<br>
+            Duración: <span class="template-tag">[X minutos]</span>.<br><br>
+            Crea la estructura de la presentación con:<br>
+            – Título gancho para la diapositiva de apertura<br>
+            – Estructura de <span class="template-tag">[N]</span> secciones con subtítulo y 2-3 puntos clave por sección<br>
+            – Una pregunta de apertura para enganchar al público<br>
+            – Un cierre memorable<br><br>
+            Tono: <span class="template-tag">[profesional/dinámico/técnico]</span>
+            <button class="copy-btn" onclick="copyText(this)">Copiar</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- ── SECTION 6: CHECKLIST ── -->
+  <div class="section" id="checklist">
+    <div class="section-header">
+      <div class="section-icon" style="background:rgba(62,207,142,0.15)">✅</div>
+      <div>
+        <div class="section-title">Checklist Final</div>
+        <div class="section-desc">Antes de enviar tu prompt, revisa estos puntos</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-body">
+        <ul class="checklist">
+          <li><div><strong>¿Definiste el rol?</strong> "Actúa como..." mejora notablemente la calidad de la respuesta.</div></li>
+          <li><div><strong>¿Diste contexto suficiente?</strong> Claude no sabe nada de tu situación salvo lo que le cuentas.</div></li>
+          <li><div><strong>¿La tarea es concreta?</strong> Un verbo de acción claro: explica, escribe, lista, analiza, compara...</div></li>
+          <li><div><strong>¿Especificaste el formato?</strong> Longitud, estructura, idioma, tono, si quieres tablas o listas.</div></li>
+          <li><div><strong>¿Pediste una sola cosa?</strong> Divide peticiones complejas en múltiples mensajes.</div></li>
+          <li><div><strong>¿Pusiste ejemplos si lo necesitas?</strong> "Como por ejemplo..." elimina ambigüedades.</div></li>
+          <li><div><strong>¿Indicaste lo que NO quieres?</strong> Las restricciones negativas son muy poderosas.</div></li>
+          <li><div><strong>¿El prompt tiene al menos 3 líneas?</strong> Los prompts muy cortos casi siempre producen respuestas genéricas.</div></li>
+        </ul>
+      </div>
+    </div>
+
+    <div style="margin-top:24px; padding:24px; background:linear-gradient(135deg, rgba(62,207,142,0.08), rgba(124,106,247,0.08)); border:1px solid rgba(62,207,142,0.2); border-radius:16px;">
+      <div style="font-family:'Syne',sans-serif; font-weight:700; font-size:1.1rem; margin-bottom:8px;">💬 Recuerda la regla más importante</div>
+      <p style="color:var(--muted); font-size:14px; line-height:1.7;">Claude es una conversación, no un formulario. Si la primera respuesta no es perfecta, <strong style="color:var(--text)">no empieces de cero</strong>. Dile "Hazlo más corto", "Cambia el tono a formal", "Añade un ejemplo de la vida real". Iterar es la habilidad más valiosa.</p>
+    </div>
+  </div>
+
+</main>
+
+<div id="toast" class="toast">✓ Copiado al portapapeles</div>
+
+<script>
+  // Intersection Observer for fade-in
+  const obs = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.section').forEach(s => obs.observe(s));
+
+  // Nav active
+  document.querySelectorAll('.nav-pill').forEach(pill => {
+    pill.addEventListener('click', function() {
+      document.querySelectorAll('.nav-pill').forEach(p => p.classList.remove('active'));
+      this.classList.add('active');
+    });
+  });
+
+  // Copy button
+  function copyText(btn) {
+    const box = btn.closest('.prompt-box');
+    const text = box.innerText.replace('Copiar', '').trim();
+    navigator.clipboard.writeText(text).then(() => {
+      const toast = document.getElementById('toast');
+      toast.classList.add('show');
+      setTimeout(() => toast.classList.remove('show'), 2000);
+    });
+  }
+</script>
+</body>
+</html>

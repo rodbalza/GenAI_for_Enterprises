@@ -1,0 +1,59 @@
+Conectores MCP: integra Claude con tus Aplicaciones
+
+Resumen
+Conectar tu IA con Slack, Notion, Canva y más ya es una realidad con el Model Context Protocol (MCP) de Anthropic. Este estándar abierto, creado a fines de 2024 y cedido a la Fundación de los Agentes de IA bajo Linux Foundation, permite que Claude y otras IA actúen dentro de tus herramientas con conectores seguros. Aquí verás cómo activarlos, ejemplos reales con Notion y Canva, y cómo llevarlo al siguiente nivel con MCP locales como File System.
+
+¿Qué es el Model Context Protocol (MCP) y por qué importa?
+
+El MCP estandariza la conexión entre IA y aplicaciones externas. En lugar de depender de APIs o webhooks distintos, funciona como un puerto universal tipo USB-C: un servidor MCP lo expone la app y un cliente (Claude) se conecta. Así, integrar Slack, Notion o Canva se vuelve simple para el usuario.
+
+Capacidades dentro de las apps: analizar páginas y bases de datos. Tomar acciones. Buscar contenido. Ver información.
+Conectores en Claude: la sección Conectores usa MCP por detrás, simplificando la configuración.
+Adopción del ecosistema: también lo usan ChatGPT, Gemini y Cursor, aumentando la interoperabilidad entre herramientas.
+¿Cómo funciona el puerto universal tipo USB para apps?
+
+La app ofrece un servidor MCP que define recursos y acciones.
+Claude, como cliente, negocia permisos y ejecuta tareas en tu nombre.
+El usuario controla accesos, alcance y aprobaciones.
+¿Qué apps y ecosistema ya lo usan?
+
+Suite de Google: correo, drive y calendario.
+GitHub para proyectos y repositorios.
+Catálogo de Conectores con cientos de opciones: HubSpot disponible; Zapier, PayPal y Gamma también. Pipedrive y Mailchimp no aparecen entre los oficiales, aunque existen alternativas no oficiales.
+Hay servidores MCP creados por la comunidad que se pueden instalar aparte.
+¿Cómo conectar conectores web y apps a Claude?
+
+En Claude, ve a configuración y entra a Conectores. Ahí eliges la app, presionas Conectar y autorizas. Desde ese momento, Claude puede leer, buscar y, si lo permites, tomar acciones dentro de la herramienta.
+
+¿Cómo vincular Notion y Canva paso a paso?
+
+Abre Conectores y elige Notion. Autoriza el acceso a páginas y bases de datos.
+Conecta Canva y habilita el uso de tu brand kit (colores, logos, fuentes).
+Pide: crear un post para LinkedIn y un carrusel vertical en Canva.
+Claude orquesta herramientas vía MCP: usa formato 1080 × 1350, múltiples slides y sugiere exportar en PDF.
+Abre el documento en Canva y ajusta estilos si algo quedó en inglés. El brand kit se aplica de forma automática a diseños, colores y tipografías.
+¿Qué casos de uso prácticos aceleran tu flujo?
+
+Resumir y enlazar información de Notion: por ejemplo, una campaña de Dungeons & Dragons llamada Cephirion con sus personajes principales.
+Crear páginas nuevas con enlaces reales a bases de datos de Notion.
+Si hay conflicto de extensiones (como Cloud for Chrome) o la app no está abierta, usa plan b: descargar el contenido en .md (Markdown) o copiar y pegar.
+¿Cómo usar MCP locales y buenas prácticas de seguridad?
+
+Para MCP locales, utiliza la app de escritorio de Claude. En configuración, entra a Extensiones y habilita conectores como File System, que dan acceso a carpetas y archivos con permisos que tú controlas.
+
+Ajusta permisos finos: lectura, escritura, eliminación, requerir aprobación o bloquear.
+Recuerda: dar acceso local implica riesgos. Define el alcance mínimo y revisa acciones.
+Menos es más: demasiados MCP cargan el contexto en cada interacción y pueden acortar tus respuestas o generar confusión. Conecta solo lo que usas a diario.
+Prioriza conectores oficiales. Si no existen, considera uno de third party.
+¿Cómo habilitar File System y crear archivos?
+
+Instala File System desde Extensiones en la app de escritorio.
+Pide una tarea compuesta: buscar en internet los cursos de Rodrigo Rojo en Platzi, resumirlos y crear un archivo en el escritorio.
+Claude busca, compila y crea un .md con títulos, descripciones, módulos, calificaciones y enlaces.
+Verifica los links en el navegador. Ventaja de Markdown: se importa limpio en Notion y otros sistemas.
+¿Cómo encontrar y agregar servidores MCP personalizados?
+
+Explora catálogos como mcp.so con más de diecisiete mil servidores MCP no oficiales.
+Muchos están en GitHub: algunos se instalan localmente, otros se hospedan en línea.
+En Claude, ve a Conectores y usa “agregar conectores personalizados”. Sigue el manual de cada servidor.
+Útil para cubrir huecos: si un conector oficial no existe (por ejemplo, Mailchimp), busca alternativas comunitarias. También verás opciones para herramientas como Visual Studio Code, Cursor o Windsurf.

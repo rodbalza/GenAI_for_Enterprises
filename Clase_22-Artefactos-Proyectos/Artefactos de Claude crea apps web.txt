@@ -1,0 +1,64 @@
+Artefactos de Claude: crea apps web con IA
+
+Resumen
+Domina los artefactos de Claude para transformar ideas en documentos, dashboards y aplicaciones web interactivas con IA generativa. Desde una calculadora de ahorro para tu e-commerce hasta un generador de posts para LinkedIn, verás cómo crear, iterar y publicar soluciones reales que elevan tu productividad.
+
+¿Qué son los artefactos en Claude y dónde encontrarlos?
+
+Los artefactos son archivos creados por Claude: presentaciones, planillas, documentos, dashboards y miniaplicaciones con IA. Están en el menú izquierdo, botón Artefactos. Ahí verás una pestaña de inspiración y otra de Tus artefactos, con todo lo que has creado, sin ir al chat.
+
+Acceso directo: botón Artefactos en la izquierda.
+Organización clara: inspiración y Tus artefactos.
+Ejemplos prácticos: guía de streaming, documentos y dashboards.
+Potencial interactivo: juegos y herramientas útiles, no solo texto.
+¿Cómo funcionan las miniaplicaciones interactivas con IA?
+
+El ejemplo del juego de plataformas con IA muestra la dinámica: eliges un tema como “Cuevas de cristal”, “bodega flotante” o “paisaje de sueños”, presionas “Comenzar la aventura” y se genera un nivel único. Puedes jugar de inmediato. El stack técnico no importa: lo clave es el resultado funcional.
+
+¿Qué artefactos conviene guardar para el día a día?
+
+El generador de códigos QR es altamente recomendado. Guárdalo en tu biblioteca y crea QR desde cualquier link cuando lo necesites.
+
+¿Cómo crear un nuevo artefacto paso a paso?
+
+Puedes hacerlo desde Nuevo artefacto o pedirlo en un chat. El flujo es guiado con botones, pero sigue siendo un chat normal. Ejemplo: una calculadora web que muestra el ahorro de usar tu plataforma de e-commerce para restaurantes frente a alternativas con fee por venta.
+
+Entradas del usuario: ventas mensuales y ticket promedio.
+Planes propios: estático de 99 USD y plan light de 49 USD.
+Competencia: 1 USD por venta más costos de delivery.
+Diferenciadores: integraciones con CRM, mailing y deliveries avanzados.
+Motor del sistema: uso del modelo extendido de Claude, con búsqueda en internet y funciones que conviven con el modelo base mencionado como Claude Opus 4.5.
+¿Cómo iterar y mejorar la calculadora de ahorro?
+
+La base se optimiza pidiendo cambios. Se añadieron costos de delivery y visualizaciones para decidir mejor. El artefacto recalcula el punto de equilibrio y resalta el ahorro mensual según las entradas del usuario.
+
+Slider de costo de delivery con valor por defecto de 4.
+Desglose por tarjeta: fee de plataforma, delivery y total combinado.
+Gráfico de líneas: roja la competencia, verde y azul tus planes, línea de puntos amarilla para el volumen actual de ventas.
+Indicadores clave: ventas necesarias para que convenga, barra comparativa y actualización en tiempo real.
+¿Qué interpreta el usuario con los resultados?
+
+Punto de equilibrio: cuántas ventas necesitas para que convenga tu plan.
+Ahorro mensual: impacto directo al mover ventas y ticket.
+Corte de ventas: umbrales que cambian la recomendación.
+Ticket promedio: cómo altera ingresos y conveniencia.
+¿Cómo construir una herramienta de productividad con IA para LinkedIn?
+
+Se creó un artefacto que convierte ideas desordenadas en posts exitosos con IA generativa. Combina la búsqueda en internet de mejores prácticas con una guía integrada. Se mencionan estructuras de alto rendimiento como hook, rehook, body y CTA, además de tipos de hooks: Contrario, dolor, confesión y engagement. Permite elegir tono: profesional, casual o inspiracional.
+
+Flujo: investigar buenas prácticas y construir la app con IA.
+Personalización: selección de hook y tono del mensaje.
+Salida: generador de posts, opciones de estilo y guía de referencia.
+Términos citados para potenciar flujos futuros: MCP, Skills y Cloud Cowork.
+¿Qué entrega el generador de posts y cómo se usa?
+
+Ingresas tu texto “en corriente de conciencia” y la app genera un post pulido. Un ejemplo transformó un texto sobre ahorro de tiempo con IA en un mensaje potente: “La IA no va a reemplazarte, te va a ser obsoleto”, con enfoque en velocidad y calidad.
+
+Post listo para publicar con el tono elegido.
+Hashtags sugeridos.
+Contenido visual recomendado: comparación antes/después y video corto del proceso.
+Metadatos: tipo de publicación, audiencia B2B y mejor horario.
+Mejores prácticas: responder comentarios en las primeras dos horas y preparar 3–4 respuestas para objeciones comunes.
+¿Cómo publicar y compartir tu artefacto con IA generativa?
+
+Al presionar Publicar, el artefacto queda disponible en la web con un enlace. Cada persona que lo use inicia sesión con su cuenta de Claude y emplea sus propios recursos de suscripción para la generación. También puedes conectar el código a una app y publicarla en la web.

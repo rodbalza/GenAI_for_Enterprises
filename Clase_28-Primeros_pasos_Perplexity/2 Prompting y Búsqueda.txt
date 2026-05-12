@@ -1,0 +1,258 @@
+2 Prompting y Búsqueda
+    2.1 Cómo hacer prompts en Perplexity
+
+Resumen
+Perplexity potencia tu investigación con respuestas precisas y formateadas a tu medida. La clave está en hacer prompts claros, pedir el formato final que necesitas y aprovechar que, por defecto, actúa como experto investigador. Así ahorras tiempo: lo que antes armabas a mano (tablas, reportes, listas) ahora llega casi listo para pegar en tus documentos.
+
+¿Por qué Perplexity cambia la forma de preguntar?
+
+Perplexity no es un motor de IA tradicional: es un motor de respuestas que busca, contrasta y procesa información con modelos de IA para entregarla como la pides. Por eso, el foco no es solo qué preguntar, sino cómo necesitas el resultado.
+
+¿Qué es un motor de respuestas y por qué importa?
+
+Integra búsqueda con procesamiento de IA para darte síntesis útiles.
+De múltiples fuentes, construye la respuesta en el formato solicitado.
+Ahorra pasos repetitivos: presentaciones, tablas, reportes y propuestas.
+¿Por qué no usar rol en el prompt?
+
+No indiques “actúa como…”.
+Perplexity ya opera como experto investigador por defecto.
+Enfócate en tarea, contexto y formato de salida.
+¿Cómo influye la personalización por metadatos?
+
+Se consideran señales como ubicación e idioma del navegador.
+Esto puede matizar la respuesta hacia tu país o región.
+Úsalo a favor: especifica el mercado objetivo o idioma de salida.
+¿Cómo construir prompts efectivos paso a paso?
+
+El éxito del prompt está en definir con precisión la tarea, el contexto y la entrega. Además, puedes pedir tono y estilo cuando lo necesites.
+
+¿Qué elementos incluir: tarea, contexto y formato?
+
+Tarea clara: qué quieres investigar o producir.
+Contexto: público, región, idioma, uso del resultado.
+Formato: tabla, reporte ejecutivo, lista o presentación.
+Partes específicas: secciones, métricas o columnas requeridas.
+¿Qué tono y estilo pedir?
+
+Indica si buscas un tono profesional, ejecutivo o educativo.
+Pide brevedad o profundidad según el uso final.
+Señala el idioma de salida.
+¿Cuándo usar búsqueda pro y qué limita la versión gratuita?
+
+Con cuenta de pago, la búsqueda pro activa thinking: itera y refina la respuesta, combinando razonamiento con búsqueda, de forma similar a ChatGPT, Gemini o Claude.
+En la versión gratuita, dispones de 3 a 5 usos diarios de esa capacidad.
+¿Qué casos prácticos y recomendaciones aceleran tu flujo?
+
+Dos ejemplos muestran cómo pedir resultados listos para usar: planificación de un pódcast y estimación de TAM, SAM y SOM para un negocio SaaS en Latam.
+
+¿Cómo investigar un pódcast de tecnología e IA en Latam?
+
+Solicita “mejores prácticas” y panorama del nicho en español.
+Pide equipamiento mínimo y escalable para iniciar y crecer.
+Incluye plataformas de alojamiento y distribución como Spotify for Podcasters.
+Agrega mejores prácticas de publicación y crecimiento, lanzamiento y distribución.
+Resultado esperado: un reporte ejecutivo con oportunidades, enfoques y checklist de acción.
+Palabras clave útiles: pódcast de tecnología e inteligencia artificial, Latam, plataformas de alojamiento y distribución, mejores prácticas de publicación.
+
+¿Cómo estimar TAM, SAM y SOM para una startup SaaS de reclutamiento?
+
+Contexto: plataforma SaaS para reclutadores que usa IA para crear descriptores de cargo, publicar en plataformas principales, filtrar candidatos y analizar el fit.
+Pide una tabla con TAM, SAM y SOM para Latam y notas metodológicas.
+Señala el país de inicio (ej.: Chile) para ajustar supuestos regionales.
+Datos que pueden aparecer en la respuesta y conviene verificar:
+Mercado de tecnología HR en Latam como base.
+Porción de reclutamiento ATS dentro de HR tech entre 15% y 25%; usar 20% como referencia.
+Chile como 4% del mercado Latam, si aplica al caso.
+Pide además una tabla de competidores relevantes: ejemplos mencionados incluyen Greenhouse, SAP, Workday.
+Sugerencia metodológica: refina con modelo bottom up (número de empresas objetivo y ticket promedio).
+Palabras clave útiles: HR tech, ATS, TAM, SAM y SOM, Latam, bottom up, competidores.
+
+¿Qué mejores prácticas pedir al cerrar tu prompt?
+
+Formato de salida: tabla, reporte ejecutivo o lista de verificación.
+Secciones específicas: fuentes, métricas, pasos siguientes.
+Listas de sitios a visitar o información a recopilar.
+Claridad en cómo usarás la información: presentación, informe interno o propuesta.
+Recordatorio esencial: verifica las fuentes que se citen.
+
+    2.2 Investigación profunda en Perplexity AI
+
+Resumen
+La investigación profunda de Perplexity AI combina pensamiento iterativo y búsqueda en tiempo real para generar reportes avanzados en minutos. Ideal para equipos que necesitan comparar mercados, crear resúmenes ejecutivos y tomar decisiones con velocidad. Aquí encontrarás cómo pedir resultados precisos, qué entregables recibir y cómo integrarlo con tus fuentes privadas.
+
+¿Qué es la investigación profunda de Perplexity AI?
+
+La función actúa como un agente autónomo que itera, planifica, analiza fuentes y vuelve a buscar hasta construir un reporte extenso. Opera en la interfaz web o en la aplicación móvil, donde verás tres íconos y, a veces, un signo más que agrupa las opciones.
+
+Combina razonamiento del modelo y motor de búsqueda en línea.
+Produce un reporte maestro con múltiples fuentes y comparativas.
+Trabaja de forma independiente, como un colaborador que investiga por ti.
+Permite añadir instrucciones durante el proceso desde el chat.
+Suele tardar entre cinco y diez minutos, pudiendo llegar a veinte en algunos casos.
+En cuenta gratuita, consume uno de los usos pro diarios.
+¿Cómo se inicia la investigación?
+
+Selecciona el botón de investigación profunda entre los tres íconos disponibles.
+Escribe tu pedido con contexto detallado para guiar a la IA.
+Envía y observa cómo se crea el archivo de investigación en el panel derecho.
+¿Qué contexto conviene dar?
+
+Quién eres y en qué trabajas: por ejemplo, una startup edtech de Colombia.
+Objetivo claro: expansión regional hacia Chile, Perú y Argentina.
+Alcance solicitado: comparativa de leyes laborales entre esos mercados.
+Criterios de decisión: orden de aterrizaje según facilidad de adaptar procesos de Colombia.
+¿Cómo usarla paso a paso para un reporte maestro?
+
+Pedir un reporte maestro asegura una comparativa completa y bien estructurada. Puedes refinar en cualquier momento con nuevas peticiones, que se agregan a la cola de tareas sin interrumpir lo que ya está en curso.
+
+Especifica entregables: por ejemplo, añade un resumen ejecutivo en dos páginas.
+Observa cómo el sistema indica que refinará la búsqueda con tu selección.
+Trata a la herramienta como a un colaborador: agrega requisitos si algo faltó.
+¿Qué buenas prácticas mejoran los resultados?
+
+Define propósito, audiencias y formato esperado desde el inicio.
+Incluye dimensiones clave de comparación y criterios de recomendación.
+Evita solicitudes vagas y añade contexto operativo y geográfico.
+¿Cómo se gestiona la cola de tareas?
+
+El sistema completa primero el reporte maestro y luego el resumen solicitado.
+Puedes seguir añadiendo entregables mientras trabaja, sin perder progreso.
+¿Qué obtienes y cómo compararlo con otras IAs?
+
+La herramienta genera documentos listos para compartir y te permite enfocarte en acciones de mayor valor: decidir, priorizar y ejecutar.
+
+¿Qué formatos de exportación hay?
+
+Descarga como PDF o DOCX (Word).
+Exporta directo a Google Drive si está conectado.
+Suele producir un reporte largo (alrededor de veintitantas páginas) y un documento más corto, por ejemplo, trece páginas a modo de resumen por mercado.
+¿Cómo usar fuentes privadas y archivos?
+
+Puedes cambiar la fuente de datos para que trabaje con OneDrive, Google Drive, calendario y Gmail.
+Es posible activar la web y además adjuntar un archivo propio para que lo incluya como fuente.
+Útil cuando tienes un estudio privado de un proveedor que no está publicado en línea.
+¿En qué se diferencia de ChatGPT o Gemini?
+
+En varios casos, ChatGPT o Gemini pueden tardar 30 a 40 minutos en una investigación profunda.
+Perplexity AI suele responder en 5 a 10 minutos, con documentos algo más cortos, más listas y un análisis preciso.
+Para documentos tipo nivel magíster, quizá prefieras otra herramienta; para acelerar el día a día, Perplexity entrega las ideas fuerza necesarias con gran velocidad.
+
+    2.3 Análisis de documentos y archivos con Perplexity
+
+Resumen
+Perplexity no solo busca en la web: también analiza tus archivos y los enriquece con fuentes externas para crear entregables profesionales. Con un flujo conversacional y la ventana de contexto, puedes adjuntar reportes, presentaciones o planillas, pedir bibliografía en formato APA, producir un white paper y generar listas de prospectos en Excel. Aquí verás cómo replicar el proceso paso a paso, con tips de formato Markdown y exportación.
+
+¿Cómo aprovechar Perplexity para analizar y ampliar documentos?
+
+Perplexity admite archivos adjuntos y cruza su contenido con búsqueda en internet. El ejemplo parte cargando el reporte “Antropic Economics Index” para hallar estudios similares enfocados en Latinoamérica y armar insumos bibliográficos que luego se integran en un white paper.
+
+Adjuntar el documento y aprobar permisos de datos.
+Solicitar “estudios similares” con foco geográfico: Latinoamérica.
+Recibir categorías sugeridas: productividad y crecimiento (World Economic Forum, McKinsey); impacto distributivo y mercado laboral; políticas públicas y estrategias de IA en la región (CEPAL); informes macro.
+Pedir lista bibliográfica en formato APA con comentarios por fuente para facilitar el análisis.
+Indicar: “crea un white paper con la información del reporte y las fuentes encontradas, e incluye bibliografía en APA”.
+Este flujo aprovecha la ventana de contexto: el sistema “recuerda” el archivo y los pasos previos para mantener coherencia sin repetir instrucciones. Tu rol pasa a ser el de revisor/validador: abrir fuentes, verificar pertinencia y extraer lo útil.
+
+¿Qué flujo seguir para reportes con APA?
+
+Cargar el reporte base: “Antropic Economics Index”.
+Solicitar estudios para Latinoamérica y tipos de evidencia clave.
+Pedir APA + comentarios para construir una bibliografía comentada.
+Ordenar la redacción del white paper y cerrar con referencias en APA.
+Descargar, revisar y ajustar el documento final.
+¿Qué hacer si el archivo no tiene extensión o formato?
+
+A veces el sistema genera el archivo y omite la extensión. Suele ser Markdown.
+
+Agregar manualmente “.md” o “.pdf” al nombre del archivo.
+Visualizar en Notion u Obsidian si es Markdown.
+Si Perplexity ofrece exportación, elegir PDF o Word para edición posterior.
+Pedir al asistente que recree el archivo con la extensión correcta si es necesario.
+¿Cómo crear presentaciones con shadow AI y mantener el estilo?
+
+Al adjuntar una presentación de capacitaciones sobre IA, se puede pedir una versión nueva enfocada en shadow AI, manteniendo tono y estilo del original e incorporando información reciente. El sistema analiza el archivo, detecta estructura, paleta y tipografías, y produce un PPT listo para edición.
+
+Indicar: “revisa la presentación adjunta y crea una nueva centrada en shadow AI, con el mismo tono y estilo”.
+Añadir: “incluye riesgos de IA y regulaciones si faltan”.
+El resultado incluye secciones como alucinaciones de IA, material con proyección 2025–2026, y consistencia visual con el tema oscuro y colores azules.
+Suele reportar el número de diapositivas por tema, por ejemplo: 8 para shadow AI y 9 para alucinaciones.
+¿Qué incluye la nueva presentación y cómo exportarla?
+
+Slides con títulos claros, listas y apoyo visual.
+Estructura alineada al estilo original.
+Exportación como pptx o HTML.
+Opción de enviar a Google Drive y abrir en Google Slides.
+Ajustes finos frecuentes: elementos que se salen de la diapositiva y tipografías.
+¿Cómo generar prospectos en Excel con datos reales?
+
+Adjuntando un Excel con datos ficticios de un CRM de una empresa de software para restaurantes, es posible pedir que Perplexity busque restaurantes en Chile y llene un nuevo archivo siguiendo la misma estructura: prospectos, contactos y pipeline.
+
+Cargar el Excel ejemplo: estructura de CRM con empresas, contactos y oportunidades.
+Pedir: “busca restaurantes en Chile y llena un nuevo Excel con la misma estructura”.
+El sistema devuelve una hoja con 20 potenciales clientes y pestañas alineadas al CRM.
+Iterar: “amplía a 100”, “enfócate en Santiago”, “agrega teléfonos o sitios web si están disponibles”.
+Usar el resultado para priorizar visitas de ventas y campañas de contacto.
+¿Qué buenas prácticas aseguran calidad y foco?
+
+Antes de avanzar, preguntar: “¿qué ves en el archivo?”. Asegura alineación.
+Mantener prompts breves, con foco geográfico y de segmento.
+Iterar por lotes: 20, 50, 100 prospectos.
+Validar datos clave y actualizar el pipeline en el CRM real.
+Combinar búsqueda con el modelo para ampliar y priorizar mejor.
+
+    2.4 Combina Perplexity con otras AI
+Resumen
+Combina la potencia de búsqueda con verificación de fuentes de Perplexity y la personalización de Gemini para crear un asistente que escribe y edita posts de LinkedIn con alto impacto. El flujo es simple: generar un manual con buenas prácticas y ejemplos en Perplexity, descargarlo y cargarlo como base de conocimiento en un gem de Gemini.
+
+¿Cómo usar Perplexity para crear una base de conocimiento con buenas prácticas de LinkedIn?
+
+Crear un manual sólido parte de una búsqueda con Perplexity, que entrega información fresca con citas. Pide un documento con buenas prácticas de escritura en LinkedIn, más ejemplos por cada elemento. Si ya tienes materiales propios, adjúntalos para complementar la investigación.
+
+¿Qué prompt pedir para obtener un manual con ejemplos y hooks?
+
+“Ayúdame a crear un manual de buenas prácticas de escritura en LinkedIn para escribir posts exitosos.”.
+“Incluye ejemplos de estructuras de post en LinkedIn y consejos para mejores hooks.”.
+“Para cada elemento de la escritura, agrega ejemplos prácticos.”.
+Integra tu material si existe, para enriquecer el resultado.
+El manual resultante suele incluir recomendaciones como: escribir para un nicho específico. Priorizar profundidad sobre generalidad. Usar ejemplos claros. Crear hooks que detienen el scroll. Apostar por confesión y vulnerabilidad. Añadir datos específicos. Emplear estructuras de post que funcionan, como “historia personal con lección”. Sugerir extensión, ideas por párrafo, ritmos legibles y frases que generan interacción.
+
+¿Qué opciones ofrece Perplexity al finalizar la búsqueda?
+
+Compartir: obtén el enlace y compártelo con tu equipo.
+Descargar: en PDF, Markdown o Word.
+Copiar: pega el contenido donde lo necesites.
+Rehacer: genera una versión alternativa.
+Validar fuentes: revisa los orígenes de la información.
+Dar feedback: mejora futuras respuestas.
+Guardar el prompt como shortcut: reutilízalo al instante.
+¿Cómo convertir ese manual en un asistente dentro de Gemini?
+
+En Gemini, usa los gems (asistentes personalizados). Crea uno nuevo, nómbralo “el escritor exitoso” y, si quieres, coloca un emoji como ícono. La clave está en subir el archivo del manual en la sección de conocimiento y redactar instrucciones operativas claras.
+
+¿Qué instrucciones funcionan para el asistente?
+
+“Eres un experto en escribir y editar posts exitosos en LinkedIn.”.
+“Basado en la experiencia e ideas del usuario.”.
+“Tienes acceso a un documento con buenas prácticas y ejemplos para lograr alto engagement y visualizaciones.”.
+“Si el usuario no te da una idea clara, pídela.”.
+Guarda para fijar instrucciones y conocimiento.
+¿Cómo probarlo con una idea real para LinkedIn?
+
+Solicita: “Escribe un post sobre que estoy grabando un curso sobre Perplexity para Platzi; es una experiencia entretenida; me gusta compartir tips, trucos y buenas prácticas para que, usando IA, las personas hagan más, mejor y en menos tiempo.”.
+El asistente puede proponer la estructura “historia personal con lección”, con: hook/gancho tipo confesión. Cuerpo con avance del curso. Cierre con ETA “muy pronto”. Pregunta final: ¿usas Perplexity a diario o sigues fiel a Google?.
+Ajusta el estilo: pide que elimine etiquetas de secciones. Úsalo como editor para mejorar el hook y pulir el tono personal.
+¿Qué otras combinaciones y usos estratégicos se recomiendan?
+
+La mezcla de herramientas amplifica resultados si entiendes sus fortalezas y las orquestas según la tarea. Puedes combinar Perplexity con Gemini, ChatGPT o Claude para investigación, escritura y validación.
+
+¿Cómo usar Perplexity como validador de fuentes a la inversa?
+
+Trabaja borradores en Gemini, ChatGPT o Claude.
+Lleva el texto a Perplexity y pide validar con fuentes reales.
+Asegura que lo creado cumpla con estándares de verificabilidad.
+¿Qué otros usos pueden potenciar tu flujo?
+
+Investigar buenas prácticas para descriptores de cargos y perfiles en LinkedIn o Get on Board.
+Crear asistentes para escritura de código con foco en un lenguaje específico.
+Complementar chats con archivos de apoyo cuando no requieras un asistente fijo.

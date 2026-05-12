@@ -1,0 +1,46 @@
+Pensamiento extendido de Claude AI
+
+Aprovecha el pensamiento extendido de Claude para convertir tareas complejas en resultados listos para usar. Esta capacidad combina razonamiento iterativo con acción, permitiendo que el modelo piense, evalúe escenarios y ejecute pasos concretos con herramientas como creación de documentos, sin perder contexto.
+¿Qué es el pensamiento extendido en Claude y por qué importa?
+El avance clave son los modelos de razonamiento o de pensamiento: en lugar de responder al instante, iteran mentalmente y evalúan alternativas antes de contestar. A diferencia de ChatGPT o Gemini, donde se separa el modelo rápido del de pensamiento, Claude (Anthropic) ofrece tres modelos y todos pueden usar el pensamiento extendido activándolo con el botón del reloj. Así, el razonamiento ocurre independiente del modelo elegido.
+La gran diferencia está en el ciclo pensar–actuar. Otros sistemas mantienen el proceso interno con tokens de pensamiento y recién al final responden. Claude, en cambio, piensa, actúa y vuelve a pensar, combinando herramientas internas: búsqueda de información, creación de Google Doc, y más. Esto acelera el desarrollo de entregables con estructura sólida.
+Puntos clave.
+•	Razonamiento iterativo: evalúa escenarios antes de responder.
+•	Ciclo pensar–actuar: alterna entre reflexión y ejecución.
+•	Herramientas integradas: como creación de documentos y búsqueda.
+•	Botón del reloj: activa el pensamiento extendido en cualquier modelo.
+¿Cómo usarlo paso a paso con un prompt efectivo?
+Selecciona el modelo en Claude y activa el pensamiento extendido con el ícono de reloj. Si buscas una respuesta rápida y liviana, usa haiku con pensamiento extendido. Para tareas complejas, la recomendación es Opus 4.6 con pensamiento extendido, aprovechando al máximo sus capacidades.
+La habilidad crítica es diseñar un prompt con input y output claros. Entrega contexto preciso y el resultado esperado. En el ejemplo, se solicita una estrategia de contratación integral para una empresa B2B SaaS llamada “Los Palotes Limitada”, cubriendo desde levantamiento de necesidades, descriptores de cargo, selección e entrevistas, hasta onboarding.
+Cómo plantearlo.
+•	Define el objetivo: “diseñar una estrategia de contratación integral”.
+•	Especifica el alcance: desde levantamiento hasta onboarding.
+•	Entrega el contexto: empresa B2B SaaS por suscripción a empresas.
+•	Describe funciones: administración, desarrollo, marketing, recursos humanos y operaciones.
+•	Pide el formato: un framework estructurado con secciones claras.
+•	Explica el resultado deseado: documento descargable y editable.
+Qué hace Claude con pensamiento extendido.
+•	Estructura el framework: decide secciones y subpasos necesarios.
+•	Combina herramientas: por ejemplo, crea un Google Doc.
+•	Itera sin intervención: alterna entre pensar y actuar hasta completar.
+¿Qué resultados puedes esperar en procesos con múltiples pasos?
+El pensamiento extendido brilla cuando hay múltiples pasos y necesidad de combinar herramientas. En el caso narrado, Claude creó un documento de diecinueve páginas con un marco integral de trece secciones. Incluyó apartados no solicitados explícitamente, demostrando criterio y cobertura profunda.
+Qué puede incorporar incluso si no se pide literal.
+•	Métricas de KPI para medir la efectividad del proceso.
+•	Herramientas y tecnología para soportar reclutamiento.
+•	Comunicación con candidatos en cada etapa.
+•	Compliance y aspectos legales aplicables.
+Hechos relevantes del flujo.
+•	Tiempo de ejecución aproximado: alrededor de siete minutos sin intervención.
+•	Calidad del entregable: documento con tablas y estructura clara en Google Doc.
+•	Portabilidad: se descarga y abre en Word sin problemas.
+•	Iteración posterior: se puede pedir “entrégalo de otra forma” o ajustar secciones.
+Habilidades y conceptos reforzados.
+•	Diseño de prompt: claridad en contexto, alcance y resultado esperado.
+•	Pensamiento extendido: razonamiento independiente del modelo seleccionado.
+•	Ciclo pensar–actuar: alternancia entre reflexión y ejecución para mayor calidad.
+•	Enfoque framework: organización por etapas (levantamiento, perfil, atracción, selección, entrevistas, onboarding).
+•	B2B SaaS: comprensión del modelo por suscripción y sus implicancias en perfiles.
+•	Tokens de pensamiento: entendimiento de procesos de razonamiento interno.
+Cuando busques un resultado realmente potente en procesos complejos, con múltiples documentos de análisis o varias etapas, activa el pensamiento extendido y entrega un prompt con input y output bien definidos. Así, Claude podrá razonar, combinar herramientas y producir un entregable de alta calidad sin pasos manuales intermedios.
+
